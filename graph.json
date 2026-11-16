@@ -1,0 +1,2789 @@
+{
+ "_manifest": {
+  "chain_head": "a501868b0a9ef3b7b9956d248eb26a496d68044e217a9b55352f431155eac813",
+  "row_counts": {
+   "breaches": 4,
+   "chain": 46,
+   "cross_references": 10,
+   "documents": 172,
+   "escalations": 12,
+   "meta": 2,
+   "outcomes": 8,
+   "requests": 12
+  },
+  "tables": [
+   "requests",
+   "breaches",
+   "escalations",
+   "outcomes",
+   "cross_references",
+   "documents",
+   "chain",
+   "meta"
+  ]
+ },
+ "breaches": [
+  {
+   "agency": "Uinta County, Wyoming",
+   "breach_type": "missed_deadline",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_detected": "2026-11-03",
+   "date_logged": "2026-11-08",
+   "description": "Thirty-day statutory production period expired with no production, no written denial and no extension notice.",
+   "evidence_doc_id": "wyoming-public-records-demand-2026-11-08-01.md",
+   "id": 1,
+   "request_id": "REQ-UINTA-01",
+   "severity": 4,
+   "statute_section": "Wyo. Stat. \u00a7 16-4-202(c)(iii)"
+  },
+  {
+   "agency": "Uinta County, Wyoming",
+   "breach_type": "no_privilege_log",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_detected": "2026-11-03",
+   "date_logged": "2026-11-08",
+   "description": "No written determination identifying any exemption or privilege, and no index of withheld records.",
+   "evidence_doc_id": "uinta-county-followup-2026-11-08.md",
+   "id": 2,
+   "request_id": "REQ-UINTA-01",
+   "severity": 3,
+   "statute_section": "Wyo. Stat. \u00a7 16-4-202(c)(i)"
+  },
+  {
+   "agency": "Wyoming Department of Corrections",
+   "breach_type": "other",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_detected": "2026-11-10",
+   "date_logged": "2026-11-10",
+   "description": "Request redirected to a third-party portal with no tracking number, fee-waiver confirmation or personal-representative guidance supplied.",
+   "evidence_doc_id": "uinta-form-send-receipt-2026-11-08.json",
+   "id": 3,
+   "request_id": "REQ-WYDOC-01",
+   "severity": 2,
+   "statute_section": "Wyo. Stat. \u00a7 16-4-202"
+  },
+  {
+   "agency": "City of Bullhead City, Arizona",
+   "breach_type": "incomplete_production",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_detected": "2026-11-03",
+   "date_logged": "2026-11-03",
+   "description": "Reply received; production scope not yet confirmed against the six categories sought.",
+   "evidence_doc_id": "bullhead-az-records-reply-2026-11-10.md",
+   "id": 4,
+   "request_id": "REQ-BULLHEAD-01",
+   "severity": 2,
+   "statute_section": "A.R.S. \u00a7 39-121.01(D)(1)"
+  }
+ ],
+ "chain": [
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "op": "INSERT",
+   "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+   "record_hash": "f7c032307c1dadffdab881ac5ca07897b962e696caf33f08c47e604113cbff2f",
+   "row_hash": "c317fed24ac14f1b2974fd029af5234528dafd2b252e14626c7b9444905e4074",
+   "row_id": 1,
+   "seq": 1,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "op": "INSERT",
+   "prev_hash": "f7c032307c1dadffdab881ac5ca07897b962e696caf33f08c47e604113cbff2f",
+   "record_hash": "6a326bde1000c2a2d896541b1c76cf1e2cec120eff99c47dac15492f9bfed106",
+   "row_hash": "52ce1fa42be08be5b2d3d9dc10ec9f1c66306aeaa57b7018bd23a747424d1bce",
+   "row_id": 2,
+   "seq": 2,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "op": "INSERT",
+   "prev_hash": "6a326bde1000c2a2d896541b1c76cf1e2cec120eff99c47dac15492f9bfed106",
+   "record_hash": "9de1b1cddf28234f835cdc85baf855c9b770dff369c3fca64e0d6ad448f572c5",
+   "row_hash": "1dfc6b1414351bacd167045c2548a82dcc0dda0b46b86b5ac52eacc03a02a872",
+   "row_id": 3,
+   "seq": 3,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "op": "INSERT",
+   "prev_hash": "9de1b1cddf28234f835cdc85baf855c9b770dff369c3fca64e0d6ad448f572c5",
+   "record_hash": "ec63bdcfd5ddda820fee833af1b097071864d38358c694f4f59a9b7373f06d6b",
+   "row_hash": "b1e4daa6bcbc5e3fa2cb64ea7946e53626bcdea90167315a48a981c48fc3f36b",
+   "row_id": 4,
+   "seq": 4,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "ec63bdcfd5ddda820fee833af1b097071864d38358c694f4f59a9b7373f06d6b",
+   "record_hash": "4cee235bf24475729fc7fe3389443aab7d80e8dcfc485208f27ac63b1d2354db",
+   "row_hash": "f46c6d6b5da116a46457432c1a3b13acf0b53bc03eb342245d3758f9cf1634b6",
+   "row_id": 5,
+   "seq": 5,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "4cee235bf24475729fc7fe3389443aab7d80e8dcfc485208f27ac63b1d2354db",
+   "record_hash": "0710c8883c9fcc9335b54f7c46079734dadd3613a77ecd91c687107f4dce7a28",
+   "row_hash": "2179fb3b09e043844620184a455358f504ca5ae2f2aba3d3f95ebddcd166a8be",
+   "row_id": 6,
+   "seq": 6,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "0710c8883c9fcc9335b54f7c46079734dadd3613a77ecd91c687107f4dce7a28",
+   "record_hash": "ecf50ab885d1f6616efa629cdac9f8742ff68a9cede58321e2efdddf61d4a632",
+   "row_hash": "b6de68510ffaa0859eddcb3696b637b3ce1fe5c346da69d550371b96162e3947",
+   "row_id": 7,
+   "seq": 7,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "ecf50ab885d1f6616efa629cdac9f8742ff68a9cede58321e2efdddf61d4a632",
+   "record_hash": "6e55d9ce52f8af8eeeec05e2c3411e53a75386d5f028bc91f3b3cb19977df595",
+   "row_hash": "10663197364dd341ebfb06646d4f6fe66ef882bcf544049f5ee82019b475ce86",
+   "row_id": 8,
+   "seq": 8,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "6e55d9ce52f8af8eeeec05e2c3411e53a75386d5f028bc91f3b3cb19977df595",
+   "record_hash": "bed91887feb25e631df33eda9f92248f6aad378ab0d0806d9504584de41611c1",
+   "row_hash": "dd16ab35755d0012c206b01a04720c1b5e26aaa43ed5ef67531157cb89b6b177",
+   "row_id": 9,
+   "seq": 9,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "bed91887feb25e631df33eda9f92248f6aad378ab0d0806d9504584de41611c1",
+   "record_hash": "12f0b72dc8bab41c7ce7da906393a18e27b5733611a42414b26c1efaed908d17",
+   "row_hash": "d6295d4ce89fb1abe3fc483ff5788c78af414fa7a6e6b04e7b1aadfcf3bd1afc",
+   "row_id": 10,
+   "seq": 10,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "12f0b72dc8bab41c7ce7da906393a18e27b5733611a42414b26c1efaed908d17",
+   "record_hash": "f6fb5035247df7a9e5d2cc8ef19ddc3030385aa05041f4982f7b387f12eddfcf",
+   "row_hash": "5bdebcee747a2acc911427d921cbd9130627b6c7956849483729db15c7149ed6",
+   "row_id": 11,
+   "seq": 11,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "f6fb5035247df7a9e5d2cc8ef19ddc3030385aa05041f4982f7b387f12eddfcf",
+   "record_hash": "11ebdfc9d64d0dad504b31a89d43c0e600f25fdaa1fb0ca1ce51a4404e8a899c",
+   "row_hash": "642c3a83c336d5b99681228e4ab328deb803ae74d73c7642b74e1b877d24bc26",
+   "row_id": 12,
+   "seq": 12,
+   "table_name": "requests"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "11ebdfc9d64d0dad504b31a89d43c0e600f25fdaa1fb0ca1ce51a4404e8a899c",
+   "record_hash": "6abcf3686a745d7c51506ba15005c1b1c83e8f265c011d73300ed884c11be3d4",
+   "row_hash": "371b5e6227d4b62fb6c2fefe3333c63d7fbfb7173f701751c1923b560360bc66",
+   "row_id": 1,
+   "seq": 13,
+   "table_name": "breaches"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "6abcf3686a745d7c51506ba15005c1b1c83e8f265c011d73300ed884c11be3d4",
+   "record_hash": "2f888ce7d1217baddde0416b24fa63cda25a54265c32ff3a425831754004999a",
+   "row_hash": "65c5acdd776e0649eff89e415fcb592ff2f2664aee27891db22640b2f854e153",
+   "row_id": 2,
+   "seq": 14,
+   "table_name": "breaches"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "2f888ce7d1217baddde0416b24fa63cda25a54265c32ff3a425831754004999a",
+   "record_hash": "b95f306c10713f4775ce2018454a31fc7146991a10d40a2143a0d698c72e7094",
+   "row_hash": "d1c27dee2b3e7ef34a3b1be0df7d6f923e0f51f9a61e527a82e5c6e0c8cfe989",
+   "row_id": 3,
+   "seq": 15,
+   "table_name": "breaches"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "b95f306c10713f4775ce2018454a31fc7146991a10d40a2143a0d698c72e7094",
+   "record_hash": "564ba43c99f54b24d6b3b05d48996ea740329e7394abaa575d6761a3bf452433",
+   "row_hash": "30b1af2affeaf8e534cfa6f9c2032795e6b84a8d2408812ae8f928096f7764ac",
+   "row_id": 4,
+   "seq": 16,
+   "table_name": "breaches"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "564ba43c99f54b24d6b3b05d48996ea740329e7394abaa575d6761a3bf452433",
+   "record_hash": "074a9829476eb17ca47b3ae97a14d04d233b3671202b704a858dafa716a1793c",
+   "row_hash": "fe3adcd2248a42f86aa99421aea1270ee53d103a7d25ca5e20e7f70ca479c6e4",
+   "row_id": 1,
+   "seq": 17,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "074a9829476eb17ca47b3ae97a14d04d233b3671202b704a858dafa716a1793c",
+   "record_hash": "92f5faa10721203eee168a4129123206558c2c51a46c0656029f8439ced9fb17",
+   "row_hash": "ab1a93ddf21d265c16bc9d3c20735d8b2f7ca7162d02f26a63414c1421282763",
+   "row_id": 2,
+   "seq": 18,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "92f5faa10721203eee168a4129123206558c2c51a46c0656029f8439ced9fb17",
+   "record_hash": "57074dfb9c6f73bf617684f6037f306d5223f485c45f681e8220facf66927edf",
+   "row_hash": "bce1469ef4ea7a1f2ff384b7a89a0c6e9c9cd95fccf16ed29c1805d6aa9e573b",
+   "row_id": 3,
+   "seq": 19,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "57074dfb9c6f73bf617684f6037f306d5223f485c45f681e8220facf66927edf",
+   "record_hash": "440e862c4fbc7ad603d996b2336098f6aaec677eb2a175d1193d73abdc3a1902",
+   "row_hash": "e3085ff84f716570a8d7c41ebed33c4ae3eacc0435a36e1526ab0ccb0fffb8a1",
+   "row_id": 4,
+   "seq": 20,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "440e862c4fbc7ad603d996b2336098f6aaec677eb2a175d1193d73abdc3a1902",
+   "record_hash": "767b22447a0e4eede651c886db3c3caeb860975d4b427f7740abb98cec9e7b3d",
+   "row_hash": "043bc8789b4026256babe056a11f2a4ddeb847f32c1555b7712c68dd3ffb36bd",
+   "row_id": 5,
+   "seq": 21,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "767b22447a0e4eede651c886db3c3caeb860975d4b427f7740abb98cec9e7b3d",
+   "record_hash": "051504384223c44245884a129462600f58f7824001447136165a787603adf1f4",
+   "row_hash": "fde34338e81bb62ab7a06cfa4011384bfaf87a672bfee276727cb22495368306",
+   "row_id": 6,
+   "seq": 22,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "051504384223c44245884a129462600f58f7824001447136165a787603adf1f4",
+   "record_hash": "647ccbbb20e2b8395dc1492c8fe2bc90ed7f7619925b41b628ec1be216e23a02",
+   "row_hash": "bab319bfaff14a55dcc350635a7659c67a6edfa051477ef5fc5153a647ef86ba",
+   "row_id": 7,
+   "seq": 23,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "647ccbbb20e2b8395dc1492c8fe2bc90ed7f7619925b41b628ec1be216e23a02",
+   "record_hash": "18105ba73e02f0128473718ac5922e86d0702e2e223b4ca79cefb913a36b1051",
+   "row_hash": "7b6ea546c186a0cb28f242557a1be4e1691459afc0363a4d2b7412a68f7e4ee3",
+   "row_id": 8,
+   "seq": 24,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "18105ba73e02f0128473718ac5922e86d0702e2e223b4ca79cefb913a36b1051",
+   "record_hash": "23186058098a5add996ee08214a5a8c12c32ee6da94795aa1f1d31bf270ab6e2",
+   "row_hash": "20fc04551807504e342b442070afce88776d31a09fdf1b40a53f4e8532910dd6",
+   "row_id": 9,
+   "seq": 25,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "23186058098a5add996ee08214a5a8c12c32ee6da94795aa1f1d31bf270ab6e2",
+   "record_hash": "573994d7b801f1a0f855c14c8e7e672d4866361bfa2b399f4254247b70327991",
+   "row_hash": "38603784fef56d7eeb666aa53d4a2ec0503365610f05bcc25ebb7eda93a64827",
+   "row_id": 10,
+   "seq": 26,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "573994d7b801f1a0f855c14c8e7e672d4866361bfa2b399f4254247b70327991",
+   "record_hash": "514528fcc897b5b548a460165fd1ee3ebbf9064fd578b72abc57a134cbabbfd9",
+   "row_hash": "0ea480f9f403adfadb1d214bbbb4b4798286f15f056e2a953c84bbc65306a42b",
+   "row_id": 11,
+   "seq": 27,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "514528fcc897b5b548a460165fd1ee3ebbf9064fd578b72abc57a134cbabbfd9",
+   "record_hash": "56ab9bdd58ad50ec89a87ede967f96ee64a77c4809fe3efde5179e5dd2655548",
+   "row_hash": "648a1456b474d5eeee1be98635f8e5bd8f58540f166223d83628760f21edf5fa",
+   "row_id": 12,
+   "seq": 28,
+   "table_name": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "56ab9bdd58ad50ec89a87ede967f96ee64a77c4809fe3efde5179e5dd2655548",
+   "record_hash": "e3dabd0563e80e54c40ffec3cfaac055a83eea6cd78a01219e549fd48f48337d",
+   "row_hash": "37e9917f82bbb87113451526e0d3198d7652687da38aabc16016b8dcb953d5c0",
+   "row_id": 1,
+   "seq": 29,
+   "table_name": "outcomes"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "e3dabd0563e80e54c40ffec3cfaac055a83eea6cd78a01219e549fd48f48337d",
+   "record_hash": "0e6c4512710d527cfdc4bba746925d2b297063caef80e76ba6a4d12d913cc6ac",
+   "row_hash": "662ea8b5db9c0228ede6ee8408492a5ae81d90020198305c54247237e59d6b66",
+   "row_id": 2,
+   "seq": 30,
+   "table_name": "outcomes"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "0e6c4512710d527cfdc4bba746925d2b297063caef80e76ba6a4d12d913cc6ac",
+   "record_hash": "92c5b56fab7b4e242a3482b111e382cef933c67f95d5ba7e853406313b795086",
+   "row_hash": "4e1fc74421ec83c1b0be1b36ad2ba62e0750eb9c480499901f383a223d8fa13f",
+   "row_id": 3,
+   "seq": 31,
+   "table_name": "outcomes"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "92c5b56fab7b4e242a3482b111e382cef933c67f95d5ba7e853406313b795086",
+   "record_hash": "7053540802523f012ebcc22bba9b22bdb25c641ca88f756f61bc7942b22ae651",
+   "row_hash": "85cb4f6ce82f435ddf02929eafe5387ba67789401f405ab419a2e1755eb1daad",
+   "row_id": 4,
+   "seq": 32,
+   "table_name": "outcomes"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "7053540802523f012ebcc22bba9b22bdb25c641ca88f756f61bc7942b22ae651",
+   "record_hash": "047f19082854ca0220f5d5bde25a60c0d48a475fafba5b5abb49edbc4807be55",
+   "row_hash": "fdfd577bde93773c11e2258945e51b8de9f6b70ea660d828e3a2e404bd76fa1d",
+   "row_id": 5,
+   "seq": 33,
+   "table_name": "outcomes"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "047f19082854ca0220f5d5bde25a60c0d48a475fafba5b5abb49edbc4807be55",
+   "record_hash": "085e21f22b30c9ed104fb4290e31297f2a54f08dba62c5fc82137c12d656fd2f",
+   "row_hash": "e261328979c81bc5e6a3b2118a44b9cb3cf212efdebec694af2fbefd7e57020a",
+   "row_id": 6,
+   "seq": 34,
+   "table_name": "outcomes"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "085e21f22b30c9ed104fb4290e31297f2a54f08dba62c5fc82137c12d656fd2f",
+   "record_hash": "4f9820e7057c65072413a2de183625679979e1882536686774566f5658c136e0",
+   "row_hash": "2b75ce7c06d984ba0181ece38eb07d153d766ae9fcb29df03514abf6a0e2e962",
+   "row_id": 7,
+   "seq": 35,
+   "table_name": "outcomes"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "4f9820e7057c65072413a2de183625679979e1882536686774566f5658c136e0",
+   "record_hash": "d3d921ee4aba79ccb4a9cbf06c4f127d1f9f6af7081060321160f4b8b7c9b27a",
+   "row_hash": "a07c19f348bf84fdd86e7de75f1478841ae96d1941cf2097b03e15af955b9ec5",
+   "row_id": 8,
+   "seq": 36,
+   "table_name": "outcomes"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "d3d921ee4aba79ccb4a9cbf06c4f127d1f9f6af7081060321160f4b8b7c9b27a",
+   "record_hash": "56ca40dc95e34cda25acb43fd978c916e6239b6b9189fb7c311e3ab4b24aca64",
+   "row_hash": "74d32c450c2b3c76b49ce5b9bf12010f2e7ff85c22360144d49310ff7238e22e",
+   "row_id": 1,
+   "seq": 37,
+   "table_name": "cross_references"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "56ca40dc95e34cda25acb43fd978c916e6239b6b9189fb7c311e3ab4b24aca64",
+   "record_hash": "1a7783789457d7d060f0db18c88dbb75b5d4358978cedb6e98892648db55c863",
+   "row_hash": "a2172e55aeb7fd366b8590712c002ecd3b03ecfb69d0bce5e97d31bc25959d78",
+   "row_id": 2,
+   "seq": 38,
+   "table_name": "cross_references"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "1a7783789457d7d060f0db18c88dbb75b5d4358978cedb6e98892648db55c863",
+   "record_hash": "5deab4743a00c866ec4604307241a4de2aa68118def072c96f59938e13e72124",
+   "row_hash": "baa3e48cc4b9d80176c0b2a230cb6bcc7466cd375a3123e62a1861190df3844b",
+   "row_id": 3,
+   "seq": 39,
+   "table_name": "cross_references"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "5deab4743a00c866ec4604307241a4de2aa68118def072c96f59938e13e72124",
+   "record_hash": "58910c10de50bc2b939545dbdfc67bfe9d8bc2b4d3d3ac258f387cfb47e2a293",
+   "row_hash": "3fe7841592b7dae8f292ad00ddc3a98fb058293201bcbc19676ede08dfc6e338",
+   "row_id": 4,
+   "seq": 40,
+   "table_name": "cross_references"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "58910c10de50bc2b939545dbdfc67bfe9d8bc2b4d3d3ac258f387cfb47e2a293",
+   "record_hash": "17eb55a05f248db8fa4576867bf88908c184ce337c91401c8166a9d6846e1a94",
+   "row_hash": "594c2ef282fe3874e6031e8165c3784fb75518de7a642aa8be6251b5361f235a",
+   "row_id": 5,
+   "seq": 41,
+   "table_name": "cross_references"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "17eb55a05f248db8fa4576867bf88908c184ce337c91401c8166a9d6846e1a94",
+   "record_hash": "2e71e2c5311878125f5da483d1329551c368ab592b01cb9002306a7465b14ca2",
+   "row_hash": "ff395e6d173115d6de7e8599dc8616d70e3d8955530ad9eca2ac456f3fdca619",
+   "row_id": 6,
+   "seq": 42,
+   "table_name": "cross_references"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "2e71e2c5311878125f5da483d1329551c368ab592b01cb9002306a7465b14ca2",
+   "record_hash": "436efe0a6c4be57d4ffc37cc8930767401b27aced80f18624ed8befabc5cad08",
+   "row_hash": "c64409d12f36f6cec822c9460291150088ff632be4a3f6266b5e399bb860242a",
+   "row_id": 7,
+   "seq": 43,
+   "table_name": "cross_references"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "436efe0a6c4be57d4ffc37cc8930767401b27aced80f18624ed8befabc5cad08",
+   "record_hash": "4d85dc127863eab5438d12197cc7ae461376a94debdeaef0113f6199c75b40de",
+   "row_hash": "43862532219bed2ef6c7f41cdb8c08b84045bd58b9ecc8b7845ab9a306c250f2",
+   "row_id": 8,
+   "seq": 44,
+   "table_name": "cross_references"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "4d85dc127863eab5438d12197cc7ae461376a94debdeaef0113f6199c75b40de",
+   "record_hash": "b66c5b05db723ba8dbf22367a39825cf7b5dd66d84997d02b475be1684c1b486",
+   "row_hash": "4d90a3cbe507ede7c4eb71c0953ac48c038168c2566bd781c34f571e18228be1",
+   "row_id": 9,
+   "seq": 45,
+   "table_name": "cross_references"
+  },
+  {
+   "created_at": "2026-11-15T02:39:37Z",
+   "op": "INSERT",
+   "prev_hash": "b66c5b05db723ba8dbf22367a39825cf7b5dd66d84997d02b475be1684c1b486",
+   "record_hash": "a501868b0a9ef3b7b9956d248eb26a496d68044e217a9b55352f431155eac813",
+   "row_hash": "28e6811199e91f86b3f18c63eba0de84cd05e5177c6a7dde2895b8b933fe2ada",
+   "row_id": 10,
+   "seq": 46,
+   "table_name": "cross_references"
+  }
+ ],
+ "cross_references": [
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 1,
+   "from_table": "escalations",
+   "id": 1,
+   "note": "TECHOFF SRV LIMITED and SERV.HOST GROUP LTD share the Phantom Klik / AS47890 / AS48090 nexus.",
+   "relation": "same controller",
+   "to_id": 2,
+   "to_table": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 1,
+   "from_table": "escalations",
+   "id": 2,
+   "note": "TECHOFF/Phantom Klik and Uinta County both concern Ryan Robert Maggard.",
+   "relation": "same record subject",
+   "to_id": 1,
+   "to_table": "breaches"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 1,
+   "from_table": "breaches",
+   "id": 3,
+   "note": "Uinta County silence escalated to the Wyoming Public Records Ombudsman.",
+   "relation": "escalation follows breach",
+   "to_id": 3,
+   "to_table": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 1,
+   "from_table": "breaches",
+   "id": 4,
+   "note": "District-court petition under W.S. \u00a7 16-4-202(c)(v) prepared but not filed.",
+   "relation": "planned escalation",
+   "to_id": 4,
+   "to_table": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 3,
+   "from_table": "breaches",
+   "id": 5,
+   "note": "HCB fiscal sponsorship gates the Cities Deliver application (29 Nov 2026).",
+   "relation": "sponsor dependency",
+   "to_id": 12,
+   "to_table": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 4,
+   "from_table": "requests",
+   "id": 6,
+   "note": "Cathedral City LOI feeds the Cities Deliver Round 1 application.",
+   "relation": "grant dependency",
+   "to_id": 12,
+   "to_table": "escalations"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 6,
+   "from_table": "escalations",
+   "id": 7,
+   "note": "ProLIF disclosure sealed as ledger seq 162.",
+   "relation": "evidence chain",
+   "to_id": 162,
+   "to_table": "documents"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 7,
+   "from_table": "escalations",
+   "id": 8,
+   "note": "PointCloudCrafter disclosure sealed as ledger seq 163.",
+   "relation": "evidence chain",
+   "to_id": 163,
+   "to_table": "documents"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 8,
+   "from_table": "escalations",
+   "id": 9,
+   "note": "yake disclosure sealed as ledger seq 171.",
+   "relation": "evidence chain",
+   "to_id": 171,
+   "to_table": "documents"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "from_id": 9,
+   "from_table": "requests",
+   "id": 10,
+   "note": "Uinta County licence request and Wyoming DOC records both concern Ryan Robert Maggard.",
+   "relation": "same record subject",
+   "to_id": 8,
+   "to_table": "requests"
+  }
+ ],
+ "documents": [
+  {
+   "bytes": 4848,
+   "doc_id": "MSDEMO-deploy-pr-workflow_run-static-report.md",
+   "record_hash": "445800a6a4995897f81f6a743b31c3baf45281d0e4842f35fd658eca2c231821",
+   "seq": 37,
+   "sha256": "366887918b36adc7bd64970fee1083f302a73f570427d8443b57f30c6d77edee",
+   "source_url": "https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/.github/workflows/deploy-pr.yaml",
+   "title": "Bug-machine 2026-10-29 STATIC candidate (unreproduced, NOT filed): microservices-demo deploy-pr.yaml workflow_run checks out fork head with id-token:write",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 6065,
+   "doc_id": "bullhead-rotary-audit-v2.md",
+   "record_hash": "4821c9f118a250a8310a9828933479b2450285962c3dc3287620c095de02d7f9",
+   "seq": 38,
+   "sha256": "303379bdbae0b6b18fe32377f4e0047a74919d46694b8bda88a6505d805e685b",
+   "source_url": "file:///opt/data/evident/corpus/bullhead-rotary-audit-v2.md",
+   "title": "Rotary Park Audit v2 - FY2027 budget extraction update (open lead #1 resolved, no anomalies)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 5508,
+   "doc_id": "bullhead-rotary-audit.md",
+   "record_hash": "f11f04faaaba9bc5b804c4c2eb006bac233bbd7907ee796db025754d6f1184f9",
+   "seq": 39,
+   "sha256": "bb5da2612f07cede8d1bbd1c3b77655e8f1a39a508741530a569cca87aac74ea",
+   "source_url": "https://www.bullheadcityaz.gov/leadership-government/budget-and-finance/",
+   "title": "Rotary Park Audit - Bullhead City AZ (20-year project ledger + FY2023 audited actuals)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 4191412,
+   "doc_id": "citycouncil_2026-10-14_agenda.pdf",
+   "record_hash": "42b667ea59c9bfea452674f67afeebd97e4176e5327773dc609bda5a635863cc",
+   "seq": 40,
+   "sha256": "b5cfeb42bf7d24a65293980bab0082b7cff34de4549fcdae39edbe9619f95065",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=3705&compileOutputType=1",
+   "title": "City Council Study Session & Regular Meeting \u2014 Agenda (Oct 14, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 91041523,
+   "doc_id": "citycouncil_2026-10-14_packet.pdf",
+   "record_hash": "e363685bac4de82507c0916717d8fece129009066ed471c89e9cb997d81fd494",
+   "seq": 41,
+   "sha256": "b928dd6596876aa880ecf2af3679886b52e475b4baf26e9855ccf8443142be57",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=3707&compileOutputType=1",
+   "title": "City Council Study Session & Regular Meeting \u2014 Packet (Oct 14, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 11905,
+   "doc_id": "clark_findings.json",
+   "record_hash": "91b1a04a93e10a1c01fd913a0b40cb919f2439c2a789a5490dffa4458b94632e",
+   "seq": 42,
+   "sha256": "31bfc93f53327827ddbec01c006e158d8070658570f44fd13538df10675fdc77",
+   "source_url": "file:///opt/data/deepdiver/clark_findings.json",
+   "title": "Clark County NV FY26-Q3 vendor screens",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 24007,
+   "doc_id": "findings.json",
+   "record_hash": "b21ac718e42c1a400ebee6568d5ae6febc378928431c83ca7e48a8d8d25be8d0",
+   "seq": 43,
+   "sha256": "a36f6bac4b9f2bd93ca81e0867bdcbcb43753a670352a47c49cef8f930d6092d",
+   "source_url": "file:///opt/data/deepdiver/findings.json",
+   "title": "DEEPDIVER findings.json \u2014 Riverside County FY2027",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3169,
+   "doc_id": "kalshi-bounty-filed-v2.md",
+   "record_hash": "e0dfb89cc71e1141d92db9d8d8e22f364b2943578668405f24f59b7498fcf71a",
+   "seq": 44,
+   "sha256": "816366d0b4e0f01535b89ef46726ad106f1e898ca3db91fb54cce158d04b7842",
+   "source_url": "https://forms.kalshi.com/market-bug-bounty",
+   "title": "FILING RECORD v2: six Kalshi bounty findings confirmed (A-F, incl. systemic 15m TBD subtitle bug)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 2744,
+   "doc_id": "kalshi-bounty-filed.md",
+   "record_hash": "44e24c14f15501ff713c7cd2a41a0f5297786e2cb9fc94f0983f601515dd1550",
+   "seq": 45,
+   "sha256": "58ffc9e23e8405e1cf5e129bd5e6e406b1c9737d35331eb28ebc986c1c90d471",
+   "source_url": "https://forms.kalshi.com/market-bug-bounty",
+   "title": "FILING RECORD: all 5 Kalshi bounty findings submitted and confirmed (A-E, ~43 markets)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 7642,
+   "doc_id": "kalshi-bounty-fill-guide.md",
+   "record_hash": "f78b577f4985f5987ae648f45d872a3a4f309cfb171d384a78200519e6dbe1b6",
+   "seq": 46,
+   "sha256": "0705dfd2b5cea9b77d65e891b28e3a6b1b4287e734254d7ba77eb228d62ed838",
+   "source_url": "file:///opt/data/evident/corpus/kalshi-bounty-fill-guide.md",
+   "title": "Kalshi bounty fill guide - 5 submissions paste-ready (Findings A-E, ~47 markets)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3900,
+   "doc_id": "kalshi-bounty-pack-addendum.md",
+   "record_hash": "f9d4adf804fdeef2ea24392068f28c1e9438d43e4aa5219d0f28efde8b9227b4",
+   "seq": 47,
+   "sha256": "227749b7bd7a2723406148eadc98ffd2581a79ccbc2b1619c1d1d529c75b6059",
+   "source_url": "file:///opt/data/evident/corpus/kalshi-bounty-pack-addendum.md",
+   "title": "Kalshi bounty pack addendum - Findings C (systemic shared-title ladders: RECNCH, TESLAROADSTER) + D (leave-office timestamp boundaries: DIAZOUT, LAIOUT)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 4650,
+   "doc_id": "kalshi-bounty-submission-pack.md",
+   "record_hash": "72432757045f53828e9818acbf92441b7703c085ea44fd228cb6f377eb42bab8",
+   "seq": 48,
+   "sha256": "33198c6a6c873815bd10e8d4a1ca1c116d3b219270a4295bbdceb9da7682d3ce",
+   "source_url": "file:///opt/data/evident/corpus/kalshi-bounty-submission-pack.md",
+   "title": "Kalshi Market Bug Bounty submission pack - 2 findings, 16 markets (USD/BRL contradiction ladder + Ferrari Luce title/rules date conflict)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3792,
+   "doc_id": "kalshi-bug-g-golf-ladder-2026-10-24.md",
+   "record_hash": "a79745aea3ae83079a5b96d0f689c161b822dd000f58ff95d3a9bc0117768b5d",
+   "seq": 49,
+   "sha256": "b2d9c1a0c1354d169e41217872f0d00b5c4907d9273bf7ab60c71d026d1112fa",
+   "source_url": "https://forms.kalshi.com/market-bug-bounty",
+   "title": "KALSHI-G: KXGOLFMAJOR-30 title/rules window contradiction (59 markets) \u2014 filed 2026-10-24",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3717,
+   "doc_id": "kalshi-bug-h-govtcuts-year-window-2026-10-24.md",
+   "record_hash": "90ad0599b4afc26e675e01f55265165bebba95bc35306222dd082093e030e4b4",
+   "seq": 50,
+   "sha256": "8772cf57469e72edf88ac164a254ed0fbe0117a25efbd5f30aeeddf8fcb992b2",
+   "source_url": "https://forms.kalshi.com/market-bug-bounty",
+   "title": "KALSHI-H: KXGOVTCUTS-26/-28 title 'before YYYY' vs rules 'through Q4 YYYY' (16 markets) \u2014 filed 2026-10-24",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3564,
+   "doc_id": "kalshi-bug-i-hermeskelly-window-2026-10-24.md",
+   "record_hash": "d2e903d6b914a7428be722f62ed05fd8f65def5caf8ed357bd1475bbdc7cbe0b",
+   "seq": 51,
+   "sha256": "845c20151753cd4f9fdfb5ed03dd7ab88805436a3bb3efadff530ae576977079",
+   "source_url": "https://forms.kalshi.com/market-bug-bounty",
+   "title": "KALSHI-I: KXHERMESKELLY-27 (10 active) + KXCATALOGUE-27-GAR title year bound absent from dateless rules \u2014 filed 2026-10-24",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 1801,
+   "doc_id": "kalshi-bug-j-cosmetic-titles-2026-10-24.md",
+   "record_hash": "b5c12c9a045bb87272700dd26a61360f2828556885a8cab0e90b4587c0f35981",
+   "seq": 52,
+   "sha256": "aa2dd63455e9826dcf54f7d1a91d47add690930b9d0bf6cd4cc01f9be2036450",
+   "source_url": "https://forms.kalshi.com/market-bug-bounty",
+   "title": "KALSHI-J: corrupted titles \u2014 U+3164 in KXCANHOME-27JAN15-T700 (active), subject-less KXSNAPUK-27JAN01-26SEP01 \u2014 filed 2026-10-24",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3027,
+   "doc_id": "mohave-lead-resolution.md",
+   "record_hash": "75b62d201dd5e067fea0c460c758c34b5fd87a95178ce9d8e5cee36f37fcbf83",
+   "seq": 53,
+   "sha256": "ad98fa8d630101b766d58e5d95c3ec227b8490138d0a8ff7a0a389161f28f4e5",
+   "source_url": "file:///opt/data/evident/corpus/mohave-lead-resolution.md",
+   "title": "Lead Resolution: Courtesy Chevrolet same-day pattern - RESOLVED BENIGN (VIN evidence)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 9776,
+   "doc_id": "mohave_findings.json",
+   "record_hash": "b5905a020eaa7a35df5041a4b277e616254fc6aaa5e05a19ca502d2d20998d1b",
+   "seq": 54,
+   "sha256": "bc561b265dfa74f0325b2d10a9c892ebb0c89d43744a9cc02dc97cfefd5d3d02",
+   "source_url": "file:///opt/data/deepdiver/mohave_findings.json",
+   "title": "Mohave County OpenBooks screens FY2024-26",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3376448,
+   "doc_id": "parks_2026-10-06_agenda.pdf",
+   "record_hash": "d8e1895056a46c753717cb1e9366fbe34af4ad4327abe878f9e3929dbc8ab1ad",
+   "seq": 55,
+   "sha256": "2641e6ce090c18ddbac60d01b38b830ea9097c874cc83b52fbe3841bcc218746",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4097&compileOutputType=1",
+   "title": "Parks and Community Events Commission \u2014 Agenda (Oct 6, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 7125589,
+   "doc_id": "parks_2026-10-06_packet.pdf",
+   "record_hash": "a69e8dadeda96bbbc43461ca2a2204a16d39101924df9f325fcf0aad428bb077",
+   "seq": 56,
+   "sha256": "8f71c00aff09c2031badf83064a68c6f44e04d559507c0b51cf6a6295e9fd566",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4099&compileOutputType=1",
+   "title": "Parks and Community Events Commission \u2014 Packet (Oct 6, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3373092,
+   "doc_id": "planning_2026-10-07_agenda.pdf",
+   "record_hash": "ab8a669153078fb4dc56cf0e871a8a937357505a6b8475b92474613df8f1ee77",
+   "seq": 57,
+   "sha256": "b139d773f4a82dee518faaf128395812c5b6527d1f51deb26545d9e0d5eca59c",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4093&compileOutputType=1",
+   "title": "Planning Commission \u2014 Agenda (Oct 7, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 124640220,
+   "doc_id": "planning_2026-10-07_packet.pdf",
+   "record_hash": "21882833b8a7423a32bb34d38cc84870136b5cfe65ae511637ffa7ee200551f3",
+   "seq": 58,
+   "sha256": "35e71fa55ebf80b08871a032f88369af4ea023ddb58c348d8fdb2a401aeb6bed",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4095&compileOutputType=1",
+   "title": "Planning Commission \u2014 Packet (Oct 7, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3373887,
+   "doc_id": "planning_special_2026-09-30_agenda.pdf",
+   "record_hash": "de380bccca31d9d0f576644310071ce81247d496f66627873390ea8022de6816",
+   "seq": 59,
+   "sha256": "1db85e397535eb77bc6e75e62a1447033bbe73f3fd7978a3993ea4396e1fb687",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4065&compileOutputType=1",
+   "title": "Planning Commission Special Meeting \u2014 Agenda (Sep 30, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 61083144,
+   "doc_id": "planning_special_2026-09-30_packet.pdf",
+   "record_hash": "2f9790390a52f7631a55fa7e04718ce60a743da99a1597da09589654f1b44fea",
+   "seq": 60,
+   "sha256": "964e4fc4c6a913b8242ccbb2f142dd36a2d34d357ebce3ecde6bc07c3a974cc9",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4067&compileOutputType=1",
+   "title": "Planning Commission Special Meeting \u2014 Packet (Sep 30, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 20021304,
+   "doc_id": "publicarts_2026-10-13_packet.pdf",
+   "record_hash": "c5961863a0ba5f0356ce75cf1cb5424c2c16172e4614b985902351acb671f490",
+   "seq": 61,
+   "sha256": "2320d81b5be58eebb8e57e5e9f908fbd9d920e38c0e44b049b48e01beeded0cf",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4131&compileOutputType=1",
+   "title": "Public Arts Commission \u2014 Packet (Oct 13, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 74117,
+   "doc_id": "reconciliation_2026.json",
+   "record_hash": "b76db4181b99c69fbab06859b796eff3868a9cc35612fd2aefaeea0a2cca0ed9",
+   "seq": 62,
+   "sha256": "fb29e3bd6a1599bfe85f03e1c409559db73a3e56fc34c08e9c4a917145438fb0",
+   "source_url": "file:///opt/data/deepdiver/reconciliation_2026.json",
+   "title": "DEEPDIVER cross-ledger reconciliation FY2026",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 24918,
+   "doc_id": "reconciliation_2027.json",
+   "record_hash": "4802dd55bc3409e5051bf0bb26a4f2bb055ff1b56bcd4e47a6d001975e017ff8",
+   "seq": 63,
+   "sha256": "bcce74ceea6655b153cb1bd94f265fb52901f8d2f53a95720a1c8c5bd51884bb",
+   "source_url": "file:///opt/data/deepdiver/reconciliation_2027.json",
+   "title": "DEEPDIVER cross-ledger reconciliation FY2027",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 6824,
+   "doc_id": "regional-audit-corrected.md",
+   "record_hash": "30fa73010adcc367dbc4234e696c0c37b346f215dac00da063f56e1343ffde65",
+   "seq": 64,
+   "sha256": "ef02940ec3713cfc73981ebe664a40e5001f605fd0708c3461e155876be4ed72",
+   "source_url": "file:///opt/data/deepdiver/regional-audit.md",
+   "title": "Mohave-Mojave-Coachella Regional Integrity Audit (corrected 2026-10-21: Mohave leads resolved benign)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 7045,
+   "doc_id": "regional-audit.md",
+   "record_hash": "1b8dabe6621f6db54b4d26695451b88e61645c89429f53c442c39827959df8fb",
+   "seq": 65,
+   "sha256": "06f1ef98feb26c65dc0ca70c7cf85cf21af804b238adfac9e3908bfd871e9bfa",
+   "source_url": "file:///opt/data/deepdiver/regional-audit.md",
+   "title": "Mohave-Mojave-Coachella Regional Integrity Audit (2026-10-21)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 16106,
+   "doc_id": "report.md",
+   "record_hash": "1e9eab05c7b603ddb8f195dc3c2035c9ee996424af82632a7bc1fd033406e23e",
+   "seq": 66,
+   "sha256": "dedbeef836ed7ede1aba8b9619a2c49807a65274870c5a79654286feb482a6d6",
+   "source_url": "file:///opt/data/deepdiver/report.md",
+   "title": "DEEPDIVER audit report \u2014 Riverside County FY2027 (revised verdict)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 11571,
+   "doc_id": "riverside-referral-confirmation-2000643509.html",
+   "record_hash": "52021a5fa1d546939a1d7561787b5847101c0ed4a5e95d7c234180dda99411f2",
+   "seq": 67,
+   "sha256": "48314fffe22b7c50b9e3509f4277a47170dbe3cba025955803f9068f58a92bee",
+   "source_url": "https://report.syntrio.com/fpp/index.php",
+   "title": "Mitratech Ethics Hotline server confirmation - Case Number 2000643509 (raw response HTML)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 2534,
+   "doc_id": "riverside-referral-confirmation-2000646071.html",
+   "record_hash": "86ff9054f05a4d217e80086dda6c96357795c60f467dc0a39c3d5edbc09be9fd",
+   "seq": 68,
+   "sha256": "42b0520ba95346ea0640ffd7438b4af797e2ad489da721b7b67e29233c26b526",
+   "source_url": "https://report.syntrio.com/fpp/index.php",
+   "title": "Mitratech Ethics Hotline server confirmation - Case Number 2000646071 (duplicate re-file 2026-10-30, raw response HTML)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3348,
+   "doc_id": "riverside-referral-filed.md",
+   "record_hash": "4858df930877cbc731c791212d9a3c8ce41a84bab9383cd8faea6f06bfc4030d",
+   "seq": 69,
+   "sha256": "6b45a5460ae0f32b2041566d0f7efb9d30c0deb012efec378b59827df0ecc364",
+   "source_url": "https://www.lighthouse-services.com/rivco (Mitratech Ethics Hotline, case 2000643509)",
+   "title": "Riverside publication-integrity referral FILED - Case 2000643509, PIN EV707506 (2026-10-24 05:51 ET)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 3677,
+   "doc_id": "riverside-referral-ready.md",
+   "record_hash": "77f344b7267d0e6ce52f24d984352d6ab5db7ef2801abb0ff343fcc7887bcb6d",
+   "seq": 70,
+   "sha256": "8ff4bbe9ec41380c2c93259e846828a4037cfa813aff9422bfeba42f1defb8fb",
+   "source_url": "https://auditorcontroller.org",
+   "title": "Riverside Auditor-Controller publication-integrity referral (staged, $207M/yr verified double-posting)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 1101,
+   "doc_id": "study_session_regular_council_meeting_2026-10-28_document_3709.pdf",
+   "record_hash": "1361a96fe8d57c2bd5887ff48b404ba066981f5f8e9067a82cb95c90bf89f19e",
+   "seq": 71,
+   "sha256": "51ebd09316ab45f2b8bcfb20c28800aaeee64984cbae6b9014baa2f10704497b",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=3709&compileOutputType=1",
+   "title": "Study Session & Regular Council Meeting \u2014 Document (Oct 28, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 97172075,
+   "doc_id": "study_session_regular_council_meeting_2026-10-28_document_3711.pdf",
+   "record_hash": "c3f1eabc36cff76f80df17f9881ff0a5748819fbb7f19836530b6ccf0d24d90e",
+   "seq": 72,
+   "sha256": "ad888e25c4bf5bc50d682cd2a198ea1cc28d0cd0ae879f52d01c809f9f723e10",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=3711&compileOutputType=1",
+   "title": "Study Session & Regular Council Meeting \u2014 Document (Oct 28, 2026)",
+   "witnessed_at": "2026-10-30T09:46:29Z"
+  },
+  {
+   "bytes": 1101,
+   "doc_id": "special_study_session_3_00_and_special_city_council_meeting__2026-11-10_document_4133.pdf",
+   "record_hash": "c3e2d78db79a84618aee636cd6f80a73fc18b53a0c9e0ce5d5157c08b807861a",
+   "seq": 73,
+   "sha256": "51ebd09316ab45f2b8bcfb20c28800aaeee64984cbae6b9014baa2f10704497b",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4133&compileOutputType=1",
+   "title": "Special Study Session 3:00 and Special City Council Meeting 5:30 PM \u2014 Document (Nov 10, 2026)",
+   "witnessed_at": "2026-11-06T02:43:06Z"
+  },
+  {
+   "bytes": 345835137,
+   "doc_id": "special_study_session_3_00_and_special_city_council_meeting__2026-11-10_document_4135.pdf",
+   "record_hash": "8aca2385c12839d564fb3a599a4d4f40d7fa66637dfb7c7573b55fec414981cb",
+   "seq": 74,
+   "sha256": "f80f35187a70033e59e4a13441451093b4667de096b2f905c1d55dd7f4811e2f",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4135&compileOutputType=1",
+   "title": "Special Study Session 3:00 and Special City Council Meeting 5:30 PM \u2014 Document (Nov 10, 2026)",
+   "witnessed_at": "2026-11-06T02:43:07Z"
+  },
+  {
+   "bytes": 403,
+   "doc_id": "kalshi-bug-kxcancuts-26dec31-2026-11-08.md",
+   "record_hash": "179c4915e39d7b890606a836ac8d00e4a14e347f8df95ed299987e86fda3dde6",
+   "seq": 75,
+   "sha256": "692b4799f0052b7e03e56a1a8e965e56f20b9604a696767f836ac308efd09f22",
+   "source_url": "https://kalshi.com/markets/kxcancuts-26dec31/kxcancuts-26dec31-e0",
+   "title": "Kalshi market-title defect: U+3164 HANGUL FILLER in all 6 Bank of Canada rate-cuts markets (KXCANCUTS-26DEC31)",
+   "witnessed_at": "2026-11-08T01:06:59Z"
+  },
+  {
+   "bytes": 419,
+   "doc_id": "kalshi-bug-kxheadline-sta27dec31-2026-11-08.md",
+   "record_hash": "df10503067821cd4158065ab1aec5751db8944158057f5a5def6e694b96e1ae5",
+   "seq": 76,
+   "sha256": "e395157aa874208a7f1aaeb6a1c516a210e1994053756435246d36510e1393b7",
+   "source_url": "https://kalshi.com/markets/kxheadline-sta27dec31/kxheadline-sta27dec31-bey",
+   "title": "Kalshi market-title typo: duplicated article \"a a\" in all 19 Stagecoach 2027 Headliner(s) markets (KXHEADLINE-STA27DEC31)",
+   "witnessed_at": "2026-11-08T01:06:59Z"
+  },
+  {
+   "bytes": 348,
+   "doc_id": "kalshi-bug-kxoscardir-27-jan-2026-11-08.md",
+   "record_hash": "4a64826a54e5f8cbdbc76cb506f2818f99ad6a08d405c1705a74883982823224",
+   "seq": 77,
+   "sha256": "aa0c41c60263af476238746fa3d3645ad067dd45374619bbfa16ada928d38607",
+   "source_url": "https://kalshi.com/markets/kxoscardir-27/kxoscardir-27-jan",
+   "title": "Kalshi market-title typo: double space in KXOSCARDIR-27-JAN",
+   "witnessed_at": "2026-11-08T01:06:59Z"
+  },
+  {
+   "bytes": 382,
+   "doc_id": "kalshi-bug-kxsbsetlists-27-int-2026-11-08.md",
+   "record_hash": "2cbdb6e3a509191a6df2c4fccfe773c37f364ef85eb329a78c639466499e9747",
+   "seq": 78,
+   "sha256": "c55d4c1f634aa136bfaba3c8c874b17642c6d3f583bac3894f7a67670b08e6ae",
+   "source_url": "https://kalshi.com/markets/kxsbsetlists-27/kxsbsetlists-27-int",
+   "title": "Kalshi market-title defect: mismatched quotes and unclosed parenthesis in KXSBSETLISTS-27-INT",
+   "witnessed_at": "2026-11-08T01:06:59Z"
+  },
+  {
+   "bytes": 381,
+   "doc_id": "kalshi-bug-kxtariffrevenue-26dec31-2026-11-08.md",
+   "record_hash": "87c057cc48536c370f5313d5f46ee6132752adf7e5f90b4287bfc0f02e6769a7",
+   "seq": 79,
+   "sha256": "d5e6ffeeb881b236411fcdbce4fcc428b7e18b44c4ef856f7aced151602a61f9",
+   "source_url": "https://kalshi.com/markets/kxtariffrevenue-26dec31/kxtariffrevenue-26dec31-t100",
+   "title": "Kalshi market-title defect: U+200E LEFT-TO-RIGHT MARK in all 8 US tariff revenue markets (KXTARIFFREVENUE-26DEC31)",
+   "witnessed_at": "2026-11-08T01:06:59Z"
+  },
+  {
+   "bytes": 349,
+   "doc_id": "kalshi-bug-kxtrumpres-28-2026-11-08.md",
+   "record_hash": "95a2ba0a58c7481ee7a593361dfa7a5e20cfe49c418f43780fd54b21ce5fcc2a",
+   "seq": 80,
+   "sha256": "f3b884e808aae98ad82c7c5ad927dbfe4816016f3cc6ecefe065cd1be5dc8b99",
+   "source_url": "https://kalshi.com/markets/kxtrumpres-28/kxtrumpres-28",
+   "title": "Kalshi market-title typo: missing verb \"be\" in KXTRUMPPRES-28",
+   "witnessed_at": "2026-11-08T01:06:59Z"
+  },
+  {
+   "bytes": 634,
+   "doc_id": "kalshi-bug-kxtrumpadminleave-26dec31-wsch-2026-11-08.md",
+   "record_hash": "271b831c3e47ed364f962f8bbd69f7d366721c3abb21f11783a615c1f8b7300b",
+   "seq": 81,
+   "sha256": "7ffa063dde86e44ee32ed300f4d96aae675e937274e2be43af9d6131d9a59a4c",
+   "source_url": "https://kalshi.com/markets/kxtrumpadminleave-26dec31/kxtrumpadminleave-26dec31-wsch",
+   "title": "Kalshi market-title grammar defect: \"Will Will Scharf leaves ... in before 2027?\" vs rules \"leaves ... before 2027\" (KXTRUMPADMINLEAVE-26DEC31-WSCH)",
+   "witnessed_at": "2026-11-08T01:29:51Z"
+  },
+  {
+   "bytes": 3348,
+   "doc_id": "riverside-referral-filed-amended-2026-10-30.md",
+   "record_hash": "0dd0c346c80442041ee7ec0445b76cf57c5b0762f7f7432cac7083941c5d6755",
+   "seq": 82,
+   "sha256": "6b45a5460ae0f32b2041566d0f7efb9d30c0deb012efec378b59827df0ecc364",
+   "source_url": "file:///opt/data/evident/corpus/riverside-referral-filed-amended-2026-10-30.md",
+   "title": "Riverside referral record AMENDED 2026-10-30 to document the duplicate filing (Case 2000646071) alongside the authoritative Case 2000643509",
+   "witnessed_at": "2026-11-08T01:33:39Z"
+  },
+  {
+   "bytes": 578,
+   "doc_id": "kalshi-bug-kxncaafstadium-29apr01aloha-y-2026-11-08.md",
+   "record_hash": "c28ba5fd8babfac033a13eed7922e21447f7faa611eb10a7978a8f78f473f953",
+   "seq": 83,
+   "sha256": "e469c8afdd9bd5799bc0a91cd32cd644355af931042cd4b6a99261f83e74255b",
+   "source_url": "https://kalshi.com/markets/kxncaafstadium-29apr01/kxncaafstadium-29apr01aloha-y",
+   "title": "Kalshi market-title grammar defect: missing article in KXNCAAFSTADIUM-29APR01ALOHA-Y",
+   "witnessed_at": "2026-11-08T01:37:37Z"
+  },
+  {
+   "bytes": 755,
+   "doc_id": "kalshi-bug-kxcodingmodel-26dec-2026-11-08.md",
+   "record_hash": "7c273cac0ca4931f6320665dd93f35c1558230d6ec7def9fb47a01d176dd67cf",
+   "seq": 84,
+   "sha256": "bb51f95d47db69149264103dab6a26413a3686844f03138a3a86a4a3da8fd08f",
+   "source_url": "https://kalshi.com/markets/kxcodingmodel-26dec/kxcodingmodel-26dec-moon",
+   "title": "Kalshi mutual-exclusivity defect: KXCODINGMODEL-26DEC (9 company markets, mutually exclusive, no tiebreaker)",
+   "witnessed_at": "2026-11-08T01:58:46Z"
+  },
+  {
+   "bytes": 696,
+   "doc_id": "kalshi-bug-kxprimeengconsumption-30-2026-11-08.md",
+   "record_hash": "80f03f23dcbed47294db282ef189e28af19caf5cfb71215a0a91f577572b25fb",
+   "seq": 85,
+   "sha256": "1d3807250d36223f2fc2aa11d86f43f917dcb796d38bc5e9f8e84aab133ac1d3",
+   "source_url": "https://kalshi.com/markets/kxprimeengconsumption-30/kxprimeengconsumption-30-oil",
+   "title": "Kalshi mutual-exclusivity defect: KXPRIMEENGCONSUMPTION-30 (10 source markets, no tiebreaker)",
+   "witnessed_at": "2026-11-08T02:00:57Z"
+  },
+  {
+   "bytes": 764,
+   "doc_id": "kalshi-bug-kxranklistgooglesearch2-26dec-2026-11-08.md",
+   "record_hash": "eb0495ad3c338e28a2c66f8cdd87c87eefd8475b83ca5510f453b5884b217d92",
+   "seq": 86,
+   "sha256": "8bba8d18d747ba8e2b494f77d8d312ae09f836941a596a50b61a0dc3b8a48e2a",
+   "source_url": "https://kalshi.com/markets/kxranklistgooglesearch2-26dec/kxranklistgooglesearch2-26dec-joe",
+   "title": "Kalshi mutual-exclusivity defect: KXRANKLISTGOOGLESEARCH2-26DEC (#2 People rank, 11 markets, no tiebreaker)",
+   "witnessed_at": "2026-11-08T02:03:43Z"
+  },
+  {
+   "bytes": 681,
+   "doc_id": "kalshi-bug-kxranklistifpiartist-27feb28-2026-11-08.md",
+   "record_hash": "89b265c2c30245f0db471556cc1ba551a3b1f2b932ca47e124db3a8c527575bf",
+   "seq": 87,
+   "sha256": "9b07071adcde5b6c088934fb81c978a76435690a1dcde6c95cb640a7ce4951b8",
+   "source_url": "https://kalshi.com/markets/kxranklistifpiartist-27feb28/kxranklistifpiartist-27feb28-str",
+   "title": "Kalshi mutual-exclusivity defect: KXRANKLISTIFPIARTIST-27FEB28 (IFPI #1 artist, 22 markets, no tiebreaker)",
+   "witnessed_at": "2026-11-08T02:04:58Z"
+  },
+  {
+   "bytes": 741,
+   "doc_id": "kalshi-bug-kxg7leaderout-26jul20-2026-11-08.md",
+   "record_hash": "61a60ab17973346ca8b75881347cd6acd7fb7c0195c7bfddffa2a6d7c89a9bea",
+   "seq": 88,
+   "sha256": "ed02cc9c74facb1ad7f1688d5c3cd79a39148398d24137ecdf345392043dc663",
+   "source_url": "https://kalshi.com/markets/kxg7leaderout-26jul20/kxg7leaderout-26jul20-stak",
+   "title": "Kalshi mutual-exclusivity defect: KXG7LEADEROUT-26JUL20 (G7 leader out next, 7 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T02:40:05Z"
+  },
+  {
+   "bytes": 720,
+   "doc_id": "kalshi-bug-kxafricaleaderout-35-2026-11-08.md",
+   "record_hash": "81cedb41681eb785db3c32579cd2c2ff32bdeb6a39a718ad4714eb0290992c9f",
+   "seq": 89,
+   "sha256": "4ebacddabd66818a37b3d0731835995bf3927e1a4ddf22eb0f14c216b8446618",
+   "source_url": "https://kalshi.com/markets/kxafricaleaderout-35/kxafricaleaderout-35-tas",
+   "title": "Kalshi mutual-exclusivity defect: KXAFRICALEADEROUT-35 (African leader out next, 10 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T02:40:52Z"
+  },
+  {
+   "bytes": 769,
+   "doc_id": "kalshi-bug-kxdeclarepresfirstd-28nov01-2026-11-08.md",
+   "record_hash": "47cdb125b53a52954cd25d5fc1a66255afa9eefefda321efbe5d74daf637e250",
+   "seq": 90,
+   "sha256": "8d9b63e6a0a43384ab18712ee35d1ec172b65a18b0369203c621ec94e0bfef2a",
+   "source_url": "https://kalshi.com/markets/kxdeclarepresfirstd-28nov01/kxdeclarepresfirstd-28nov01-grai",
+   "title": "Kalshi mutual-exclusivity defect: KXDECLAREPRESFIRSTD-28NOV01 (first Dem to declare, 33 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T02:42:17Z"
+  },
+  {
+   "bytes": 725,
+   "doc_id": "kalshi-bug-ecmov-28nov07-2026-11-08.md",
+   "record_hash": "05b4ab7efdacaf1f0be2671e559fb8bdda186033ea0eef12d12d5f3f7cfec7ab",
+   "seq": 91,
+   "sha256": "97a8278a8cfcb36a72b65bc12c9c35c228667064d0c800ddbadf73753cdee3ac",
+   "source_url": "https://kalshi.com/markets/ecmov-28nov07/ecmov-28nov07-rep1t10",
+   "title": "Kalshi coverage gap: ECMOV-28NOV07 (2028 Electoral College margin) has no strike for a 269-269 tie",
+   "witnessed_at": "2026-11-08T03:05:48Z"
+  },
+  {
+   "bytes": 816,
+   "doc_id": "kalshi-bug-kxnextoutus-26sep28-2026-11-08.md",
+   "record_hash": "bea47225799fe23fe6ad051f27045e885e0f250f6adc3ca48f408d42c6b448c7",
+   "seq": 92,
+   "sha256": "5124fb2217d52eca16d3cb0adcb4322597ba5f81117232ccd09945656906e5d9",
+   "source_url": "https://kalshi.com/markets/kxnextoutus-26sep28/kxnextoutus-26sep28-pheg",
+   "title": "Kalshi mutual-exclusivity defect: KXNEXTOUTUS-26SEP28 (RFK/Hegseth/Patel out first, 3 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T03:06:48Z"
+  },
+  {
+   "bytes": 780,
+   "doc_id": "kalshi-bug-kximpeachfirst-28-2026-11-08.md",
+   "record_hash": "b5ebe95f32429c88e8e65febc466d447b82a7908fe5d9adfe682d6316ee6cf59",
+   "seq": 93,
+   "sha256": "d8a81253b32f50e00776fca4555b1d9d6030410177f3a412f0b1cfd65beb741b",
+   "source_url": "https://kalshi.com/markets/kximpeachfirst-28/kximpeachfirst-28-hlut",
+   "title": "Kalshi mutual-exclusivity defect: KXIMPEACHFIRST-28 (first official impeached, 7 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T03:07:48Z"
+  },
+  {
+   "bytes": 610,
+   "doc_id": "kalshi-bug-kxdeelrip-40-2026-11-08.md",
+   "record_hash": "9e547b879b1337a1a53d4c1f6dd5410a4a969dabc4ddd20b44e0e0240d7abdd2",
+   "seq": 94,
+   "sha256": "d894ef7a44b57cffdf3c45f89733022417dad42a5d8ecf27a6b2edc285391aa3",
+   "source_url": "https://kalshi.com/markets/kxdeelrip-40/kxdeelrip-40-ripp",
+   "title": "Kalshi mutual-exclusivity defect: KXDEELRIP-40 (Deel vs Rippling IPO first, 2 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T03:08:54Z"
+  },
+  {
+   "bytes": 771,
+   "doc_id": "kalshi-bug-kxdeclarepresfirstr-28nov07-2026-11-08.md",
+   "record_hash": "668ced4c3388a52c68f4139f850d4c3b002f10ba75ef5b3535b69fe0568d17e7",
+   "seq": 95,
+   "sha256": "46d6da57790a70d52e6a1eba914a90aead91d4269eb89fa4ed3180eadbe994bb",
+   "source_url": "https://kalshi.com/markets/kxdeclarepresfirstr-28nov07/kxdeclarepresfirstr-28nov07-mgre",
+   "title": "Kalshi mutual-exclusivity defect: KXDECLAREPRESFIRSTR-28NOV07 (first GOP to declare, 37 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T03:09:42Z"
+  },
+  {
+   "bytes": 731,
+   "doc_id": "kalshi-bug-kxnflnextcoachout-27i1-2026-11-08.md",
+   "record_hash": "2c2537df4bed6c089b898907055d41ff8e0ae0d7cc4d70017fa4c39a270f7a68",
+   "seq": 96,
+   "sha256": "240966fc4bae2a2659ec9c6d73dc7245a7e20d1b3358a42951cea42607c94ac9",
+   "source_url": "https://kalshi.com/markets/kxnflnextcoachout-27i1/kxnflnextcoachout-27i1-nsir",
+   "title": "Kalshi mutual-exclusivity defect: KXNFLNEXTCOACHOUT-27I1 (next NFL coach out, 32 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T03:16:09Z"
+  },
+  {
+   "bytes": 769,
+   "doc_id": "kalshi-bug-kxdeclarepresfirstd-28nov07-2026-11-08.md",
+   "record_hash": "99d1787c43013fe3c8ad27a7f08375ef17fcfe86e4ba6970bbc79763a31d7e7c",
+   "seq": 97,
+   "sha256": "b464d7125cc9b28d537c29f9d8c418eec241346b872f3187b6046c81b4d79d40",
+   "source_url": "https://kalshi.com/markets/kxdeclarepresfirstd-28nov07/kxdeclarepresfirstd-28nov07-gwhi",
+   "title": "Kalshi mutual-exclusivity defect: KXDECLAREPRESFIRSTD-28NOV07 (first Dem to declare, 10 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T03:17:02Z"
+  },
+  {
+   "bytes": 777,
+   "doc_id": "kalshi-bug-kxnflffleader-27qb-2026-11-08.md",
+   "record_hash": "e33db0add19b3494dc89cc73d159267b421fe0975d0c0b0f64a549bc82ee77a9",
+   "seq": 98,
+   "sha256": "cdb646e585775a19e6bffb182ff708e1eaa8b8ed1e5970c61212dc2e33c18698",
+   "source_url": "https://kalshi.com/markets/kxnflffleader-27qb/kxnflffleader-27qb-jallen17",
+   "title": "Kalshi mutual-exclusivity defect: KXNFLFFLEADER-27QB (top fantasy QB, 37 markets, no tie-at-#1 provision)",
+   "witnessed_at": "2026-11-08T03:18:49Z"
+  },
+  {
+   "bytes": 768,
+   "doc_id": "kalshi-bug-kxucltop-27-2026-11-08.md",
+   "record_hash": "6e641a498737274cd9aedfb12921b3f31679a8cf41383570c9a377fe242ba4ed",
+   "seq": 99,
+   "sha256": "65a4384828766d30132ca55e816b300fa30139fdb9f870a5ed678f9722ad13cd",
+   "source_url": "https://kalshi.com/markets/kxucltop-27/kxucltop-27-atm",
+   "title": "Kalshi mutual-exclusivity defect: KXUCLTOP-27 (UCL league-phase top finisher, 36 markets, no tiebreak hierarchy)",
+   "witnessed_at": "2026-11-08T03:19:43Z"
+  },
+  {
+   "bytes": 745,
+   "doc_id": "kalshi-bug-kxncaambaprank-27w10r1-2026-11-08.md",
+   "record_hash": "88e4aa564f99ed02df0ce1caa1fef7a693aed0bc0cee24472d68f9aa71d4fcca",
+   "seq": 100,
+   "sha256": "b7a7a9d437ddf72b076efa8835a6e10f4e295edfdce5ceab20d9cc1a80b55e1e",
+   "source_url": "https://kalshi.com/markets/kxncaambaprank-27w10r1/kxncaambaprank-27w10r1-hou",
+   "title": "Kalshi mutual-exclusivity defect: KXNCAAMBAPRANK-27W10R1 (AP poll #1 team, 11 markets, no tied-#1 provision)",
+   "witnessed_at": "2026-11-08T03:22:16Z"
+  },
+  {
+   "bytes": 606,
+   "doc_id": "kalshi-bug-kxnbarelocation-27por-2026-11-08.md",
+   "record_hash": "357b3a2ffcd88dc44aea19ba6d42090733a67bba5bc785d71b6e286ccda5e374",
+   "seq": 101,
+   "sha256": "00b8245d32cc29329773abb5aa1851d54665cc7e0058e78b263f3999d448968e",
+   "source_url": "https://kalshi.com/markets/kxnbarelocation-27por/kxnbarelocation-27por-tb",
+   "title": "Kalshi coverage gap: KXNBARELOCATION-27POR (Portland relocation, 11 markets, no strike for an unlisted city)",
+   "witnessed_at": "2026-11-08T03:23:35Z"
+  },
+  {
+   "bytes": 643,
+   "doc_id": "kalshi-bug-kxjoinclub-27sep01ehaaland-2026-11-08.md",
+   "record_hash": "0f3849de782e318eb5798ee7be4b7c19c1b65c973eca05421189393c19845cd1",
+   "seq": 102,
+   "sha256": "c6a492836fe468cecd1b67750908e24287533c2d4ac2e223a6caf80a28a6d15d",
+   "source_url": "https://kalshi.com/markets/kxjoinclub-27sep01ehaaland/kxjoinclub-27sep01ehaaland-cfc",
+   "title": "Kalshi coverage gap: KXJOINCLUB-27SEP01EHAALAND (Haaland next club, 16 markets, no Other/None strike)",
+   "witnessed_at": "2026-11-08T16:59:20Z"
+  },
+  {
+   "bytes": 636,
+   "doc_id": "kalshi-bug-kxnextteamnfl-26thill-2026-11-08.md",
+   "record_hash": "04d1ab61d47d126ef888418f991ae665730b3d085cd3e791fa4163feba2c5319",
+   "seq": 103,
+   "sha256": "3f918d0501b72c326b33c8cf81c91cd373765b1ac73ecadc0f053413d2a42631",
+   "source_url": "https://kalshi.com/markets/kxnextteamnfl-26thill/kxnextteamnfl-26thill-no",
+   "title": "Kalshi coverage gap: KXNEXTTEAMNFL-26THILL (Tyreek Hill next team, 32 markets, no Retires/No Team strike)",
+   "witnessed_at": "2026-11-08T17:01:24Z"
+  },
+  {
+   "bytes": 654,
+   "doc_id": "kalshi-bug-kxmmafightnext-cmcg26oct19-2026-11-08.md",
+   "record_hash": "783a2f2960673f9dae000e1ed71ad4c9210268fba0be8b7e52efc0949e8ef224",
+   "seq": 104,
+   "sha256": "5327c35292817ccca673c839253cb53594f98f48f6f98396d74d507ca8a31d2c",
+   "source_url": "https://kalshi.com/markets/kxmmafightnext-cmcg26oct19/kxmmafightnext-cmcg26oct19-rdos",
+   "title": "Kalshi coverage gap: KXMMAFIGHTNEXT-CMCG26OCT19 (McGregor next fight, 19 markets, no Other opponent strike)",
+   "witnessed_at": "2026-11-08T17:02:34Z"
+  },
+  {
+   "bytes": 583,
+   "doc_id": "kalshi-bug-kxdnc28host-28-2026-11-08.md",
+   "record_hash": "84fde0cb201136a7c23ae9e75e97dd47197e063e8ed9d0ae51a6e72c430b4e8b",
+   "seq": 105,
+   "sha256": "8b4eb0b04996c0b591ee0c1fb353496f3a3a596ade8affc123dfe0c0bd73f4d8",
+   "source_url": "https://kalshi.com/markets/kxdnc28host-28/kxdnc28host-28-atl",
+   "title": "Kalshi coverage gap: KXDNC28HOST-28 (2028 DNC host city, 5 markets, no Other-city strike)",
+   "witnessed_at": "2026-11-08T17:08:40Z"
+  },
+  {
+   "bytes": 597,
+   "doc_id": "kalshi-bug-kxopenaileadleft-28jan01b-2026-11-08.md",
+   "record_hash": "39e6385bb83699986c12c6c8064c22ec2e81a5f856338f000c019d432e8b6e29",
+   "seq": 106,
+   "sha256": "f622e744300a61793694b8c50531eaa5310093bf25335a670e50e031ab45886d",
+   "source_url": "https://kalshi.com/markets/kxopenaileadleft-28jan01b/kxopenaileadleft-28jan01b-gsx",
+   "title": "Kalshi coverage gap: KXOPENAILEADLEFT-28JAN01B (bank leading OpenAI IPO, 6 markets, no Other-bank/no-IPO strike)",
+   "witnessed_at": "2026-11-08T17:09:30Z"
+  },
+  {
+   "bytes": 572,
+   "doc_id": "kalshi-bug-kxsbhost-2031-2026-11-08.md",
+   "record_hash": "2fb91be885f63e38f373ad855a7a2d483a52475312dc0070ebbcb672e8e84a69",
+   "seq": 107,
+   "sha256": "78b89c0df3a4e50286364f353def4f9a2034b17cc8d9a3b140a82805573da94b",
+   "source_url": "https://kalshi.com/markets/kxsbhost-2031/kxsbhost-2031-buf",
+   "title": "Kalshi coverage gap: KXSBHOST-2031 (2031 Pro Football Championship host, 26 markets, no Other-city strike)",
+   "witnessed_at": "2026-11-08T17:10:57Z"
+  },
+  {
+   "bytes": 689,
+   "doc_id": "kalshi-bug-kxukcabout-burnn28jan01-2026-11-08.md",
+   "record_hash": "fbbd5902e3be23a9374e091d89b3802671eda9bcd2917c9c87f5d25b8684c24b",
+   "seq": 108,
+   "sha256": "7cab64a84b334110a3d2fd6730a78541e8591f9bbe2225cb5d819fe280903f29",
+   "source_url": "https://kalshi.com/markets/kxukcabout-burnn28jan01/kxukcabout-burnn28jan01-lhai",
+   "title": "Kalshi mutual-exclusivity defect: KXUKCABOUT-BURNN28JAN01 (next Burnham cabinet exit, 23 markets, no same-day tiebreak)",
+   "witnessed_at": "2026-11-08T17:11:48Z"
+  },
+  {
+   "bytes": 537,
+   "doc_id": "kalshi-bug-kxukparty-29-2026-11-08.md",
+   "record_hash": "493cf170a020da7910d241251bd9a0dea668a7e82180bde09a2f74d5d4f9e791",
+   "seq": 109,
+   "sha256": "db9551abde0c7d971441339458bcbdf9e94f649e891ef048f9b9c3dff15eb3ca",
+   "source_url": "https://kalshi.com/markets/kxukparty-29/kxukparty-29-y",
+   "title": "Kalshi coverage gap: KXUKPARTY-29 (next UK general election winner, 8 markets, no Other-party strike)",
+   "witnessed_at": "2026-11-08T17:13:13Z"
+  },
+  {
+   "bytes": 592,
+   "doc_id": "kalshi-bug-power-28-2026-11-08.md",
+   "record_hash": "9250b456440826a678ddd64894e96f46caabbd1f6f02a7c5087858cf290cf56e",
+   "seq": 110,
+   "sha256": "c2ad5da6117c74046a9eba781243c5b6eb394f7cd51fc5f8456cb0d961f69120",
+   "source_url": "https://kalshi.com/markets/power-28/power-28-dh-ds-dp",
+   "title": "Kalshi coverage gap: POWER-28 (2028 presidency/House/Senate, 8 markets, no third-party presidency strike)",
+   "witnessed_at": "2026-11-08T17:14:03Z"
+  },
+  {
+   "bytes": 614,
+   "doc_id": "kalshi-bug-kxbestllmcountry-29dec31-2026-11-08.md",
+   "record_hash": "70446bbd32ac4ac2198c1cc606049edf573f6f90447e9b9a2646baf0a072c12d",
+   "seq": 111,
+   "sha256": "f161ea4fd4ac78488cb652f2675f77c65d26fc0a0b9766303ad1572d7075f6f2",
+   "source_url": "https://kalshi.com/markets/kxbestllmcountry-29dec31/kxbestllmcountry-29dec31-us",
+   "title": "Kalshi coverage gap: KXBESTLLMCOUNTRY-29DEC31 (best-LLM country, 5 markets, no Other-country strike)",
+   "witnessed_at": "2026-11-08T17:15:18Z"
+  },
+  {
+   "bytes": 522,
+   "doc_id": "kalshi-bug-kxnewpope-70-2026-11-08.md",
+   "record_hash": "d5bf32e60cffb17f1b2a9857c81bcb8e4e2a788bbb49ed4b11954948ab8ba0ff",
+   "seq": 112,
+   "sha256": "ff470f5646c59bcac201c66c531d9e181d49cb0a2ad6d264bf94bff772564765",
+   "source_url": "https://kalshi.com/markets/kxnewpope-70/kxnewpope-70-ppiz",
+   "title": "Kalshi coverage gap: KXNEWPOPE-70 (next Pope, 7 markets, no Other-candidate strike)",
+   "witnessed_at": "2026-11-08T17:16:36Z"
+  },
+  {
+   "bytes": 590,
+   "doc_id": "kalshi-bug-kxisrformin-26oct27-2026-11-08.md",
+   "record_hash": "0800ceba3d1c93abb7e6737dd64e07d48cceecfefe470ac8b2493d1a9ae6a328",
+   "seq": 113,
+   "sha256": "39ef3b9924e98a29f2b44aa5049691091dd9d61cb38f89b6122463725699704e",
+   "source_url": "https://kalshi.com/markets/kxisrformin-26oct27/kxisrformin-26oct27-aoha",
+   "title": "Kalshi coverage gap: KXISRFORMIN-26OCT27 (Israeli foreign minister, 16 markets, no Other-candidate strike)",
+   "witnessed_at": "2026-11-08T17:18:45Z"
+  },
+  {
+   "bytes": 590,
+   "doc_id": "kalshi-bug-kxisrfinmin-26oct27-2026-11-08.md",
+   "record_hash": "9cf945836576e4c679c0f72c4713af22c1a06782650e5896d9a928822b2852c9",
+   "seq": 114,
+   "sha256": "4114f3ce61cd3d4e9fc9de5a95b90e8a069cece321b51e13010c78a7e9a2ca81",
+   "source_url": "https://kalshi.com/markets/kxisrfinmin-26oct27/kxisrfinmin-26oct27-ader",
+   "title": "Kalshi coverage gap: KXISRFINMIN-26OCT27 (Israeli finance minister, 18 markets, no Other-candidate strike)",
+   "witnessed_at": "2026-11-08T17:19:50Z"
+  },
+  {
+   "bytes": 592,
+   "doc_id": "kalshi-bug-kxlatviapm-26oct03-2026-11-08.md",
+   "record_hash": "f5127c30915ae429b1702ddc0bfb9b07e92c595a2d09d602bf8954827d76984f",
+   "seq": 115,
+   "sha256": "25dba36b249e3b6a8605e35455dc677452abf3f8e7c94097284ede03972409fa",
+   "source_url": "https://kalshi.com/markets/kxlatviapm-26oct03/kxlatviapm-26oct03-akul",
+   "title": "Kalshi coverage gap: KXLATVIAPM-26OCT03 (Latvia PM, 12 markets, no Other-candidate strike)",
+   "witnessed_at": "2026-11-08T17:20:55Z"
+  },
+  {
+   "bytes": 626,
+   "doc_id": "kalshi-bug-kxargentinaperonistnom-27aug08-2026-11-08.md",
+   "record_hash": "8fe1231b9fb30504dcefea18820469a468cdc79b49ebe0b4d30ae4ca59136bf1",
+   "seq": 116,
+   "sha256": "5c5a2abf75d415d88e525f425ad376bf283e5dddb1859ad7920da2bd72505821",
+   "source_url": "https://kalshi.com/markets/kxargentinaperonistnom-27aug08/kxargentinaperonistnom-27aug08-akic",
+   "title": "Kalshi coverage gap: KXARGENTINAPERONISTNOM-27AUG08 (Argentina Peronist nominee, 11 markets, no Other-candidate strike)",
+   "witnessed_at": "2026-11-08T17:22:19Z"
+  },
+  {
+   "bytes": 699,
+   "doc_id": "kalshi-bug-kxlucedelivery-27-datedisagree-2026-11-08.md",
+   "record_hash": "bdf311a3511b5acabb221d910f73c0112b60c82631ad6b4319ddac4ce2f149cd",
+   "seq": 117,
+   "sha256": "d9302b5c4dd368d02340a6397bd8348d29ed0dbf3059f789ca2319bbececd4cd",
+   "source_url": "https://kalshi.com/markets/kxlucedelivery-27-26nov01/kxlucedelivery-27-26nov01",
+   "title": "Kalshi date contradiction: KXLUCEDELIVERY-27 (8 markets) title says \"before Jun 1, 2027\" but rules resolve months earlier",
+   "witnessed_at": "2026-11-08T17:26:57Z"
+  },
+  {
+   "bytes": 491,
+   "doc_id": "wyoming-public-records-demand-2026-11-08-01.md",
+   "record_hash": "657766902ffc4101b8ecf6929a00a5178eb298bf942be5657e1e8e7d9adbdadb",
+   "seq": 118,
+   "sha256": "6ce371ff56e0206bc015fc1b880e47553456ca3536cce39953293f4aaf655b19",
+   "source_url": "https://wyomingdci.wyo.gov/dci-homepage",
+   "title": "Wyoming Public Records Act request \u2014 Ryan Robert Maggard (DOB 2004-05-27) \u2014 Uinta County records",
+   "witnessed_at": "2026-11-08T17:45:21Z"
+  },
+  {
+   "bytes": 490,
+   "doc_id": "wyoming-public-records-demand-2026-11-08-02.md",
+   "record_hash": "037571266aeb0855188786743bb3cb57407216bd9a2488936f8495a1ccfb572d",
+   "seq": 119,
+   "sha256": "1c84ee74278558ad1fe4face0aa32903d5ac0acd36e904d8b817e3fbba3376d0",
+   "source_url": "https://wyomingdci.wyo.gov/dci-homepage",
+   "title": "Wyoming Public Records Act request \u2014 Ryan Robert Maggard (DOB 2004-05-27) \u2014 Uinta County records",
+   "witnessed_at": "2026-11-08T17:45:21Z"
+  },
+  {
+   "bytes": 487,
+   "doc_id": "wyoming-public-records-demand-2026-11-08-03.md",
+   "record_hash": "99c1a87b0e79d521806a800c3800e2351aa25f28d67c12e7baab0caf9660decb",
+   "seq": 120,
+   "sha256": "db6a9e8c6593984b6a70a758caede8a16c6bf8b9b64c291c1d4d1a30bea3a842",
+   "source_url": "https://wyomingdci.wyo.gov/dci-homepage",
+   "title": "Wyoming Public Records Act request \u2014 Ryan Robert Maggard (DOB 2004-05-27) \u2014 Uinta County records",
+   "witnessed_at": "2026-11-08T17:45:21Z"
+  },
+  {
+   "bytes": 487,
+   "doc_id": "wyoming-public-records-demand-2026-11-08-04.md",
+   "record_hash": "bf37a346736b7d384a6a38b127daf236d34d8c6a94d76b3000b1f80d4f8fd0ee",
+   "seq": 121,
+   "sha256": "fc570574f4a520d005bb9171e0850a8b126945124d37e28be401fa6fa9c40bb5",
+   "source_url": "https://wyomingdci.wyo.gov/dci-homepage",
+   "title": "Wyoming Public Records Act request \u2014 Ryan Robert Maggard (DOB 2004-05-27) \u2014 Uinta County records",
+   "witnessed_at": "2026-11-08T17:45:21Z"
+  },
+  {
+   "bytes": 496,
+   "doc_id": "wyoming-public-records-demand-2026-11-08-05.md",
+   "record_hash": "f9971aa824fa6e7b13cf125f9eceea350f17921c2a9715b26d4eb5468dd53b6e",
+   "seq": 122,
+   "sha256": "18f303dfa72f883bdbaed7da9699fb7547ab458945ef4f991856c815b54be582",
+   "source_url": "https://wyomingdci.wyo.gov/dci-homepage",
+   "title": "Wyoming Public Records Act request \u2014 Ryan Robert Maggard (DOB 2004-05-27) \u2014 WDOC custody and medical records",
+   "witnessed_at": "2026-11-08T17:45:21Z"
+  },
+  {
+   "bytes": 485,
+   "doc_id": "wyoming-public-records-demand-2026-11-08-06.md",
+   "record_hash": "117cd65f3f682cccee01003946650353af38ee2b85f3096c3e74754865961d11",
+   "seq": 123,
+   "sha256": "5d3c96447a08f51f17c2902452b1c0b0b7b505d6d8746ce3f331cd2cb3e6a39c",
+   "source_url": "https://wyomingdci.wyo.gov/dci-homepage",
+   "title": "Wyoming Public Records Act request \u2014 Ryan Robert Maggard (DOB 2004-05-27) \u2014 DCI investigations",
+   "witnessed_at": "2026-11-08T17:45:21Z"
+  },
+  {
+   "bytes": 4517,
+   "doc_id": "OBJECTION_TECHOFF_16090235.md",
+   "record_hash": "fc78b8efca34a402b812157e10b21eff30ba83ed93f7c86f7bdb3a2440aabec3",
+   "seq": 124,
+   "sha256": "3449d035437134af7aa7a30f6f0ee62bb7760a2732cdf52f50cbbfc0ef64bc12",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/strike-off-objections",
+   "title": "Objection to compulsory strike-off - TECHOFF SRV LIMITED 16090235 (s.1002A, COH2370479X)",
+   "witnessed_at": "2026-11-08T18:18:53Z"
+  },
+  {
+   "bytes": 2384,
+   "doc_id": "wyoming-escalation-record.md",
+   "record_hash": "b6ca39e820b0c021df998509b7ff84f40a16fc0c475f664b4259fbbe32c352e1",
+   "seq": 125,
+   "sha256": "c2e6692f59bbf134c1a6d795a6e36daf62077becd2a95c5ded1e0d3bbe877a68",
+   "source_url": "file:///opt/data/evident/foia/wyoming-demands-2026-11-08.json",
+   "title": "Wyoming PRA non-compliance escalation record - Ryan Robert Maggard demands 2026-11-08",
+   "witnessed_at": "2026-11-08T18:18:53Z"
+  },
+  {
+   "bytes": 668,
+   "doc_id": "aclu-wyoming-intake-2026-11-08.md",
+   "record_hash": "31b71985c9df56346054ff2ba705002a282efe285e454f4c95c0ddde82f3211a",
+   "seq": 126,
+   "sha256": "a585d25d9eb8f8d35a99b1413cdfa4932bffb8983c1bccd637fe1896d29bd13a",
+   "source_url": "https://action.aclu.org/legal-intake/aclu-wyoming-legal-intake",
+   "title": "ACLU of Wyoming legal intake \u2014 complaint submitted 2026-11-08 (received)",
+   "witnessed_at": "2026-11-08T18:20:45Z"
+  },
+  {
+   "bytes": 492,
+   "doc_id": "attorney-outreach-2026-11-08-01.md",
+   "record_hash": "946b6327fb9b5508044b089f5b5c7f3d8e1404bc2d81f2e968215c649b751193",
+   "seq": 127,
+   "sha256": "357d76911e80d6353eaa0ccd8131b345510bda0eced39950bae792cfb2863755",
+   "source_url": "https://www.swtriallawyers.com/civil-rights",
+   "title": "Attorney outreach \u2014 Case evaluation request \u2014 Ryan Robert Maggard (TBI, Uinta County WY) \u2014 civil rights / \u00a71983",
+   "witnessed_at": "2026-11-08T18:20:45Z"
+  },
+  {
+   "bytes": 495,
+   "doc_id": "attorney-outreach-2026-11-08-02.md",
+   "record_hash": "11ceab61444d21108b565c895bcd05f06116f68d0bb674b01ca910f4a3515315",
+   "seq": 128,
+   "sha256": "579583b36b09f057aff5444b03341d20ed5dc26347bdbe7d0f00181a51c9b7ed",
+   "source_url": "https://www.swtriallawyers.com/civil-rights",
+   "title": "Attorney outreach \u2014 Case evaluation request \u2014 Ryan Robert Maggard (TBI, Uinta County WY) \u2014 police brutality / color of law",
+   "witnessed_at": "2026-11-08T18:20:45Z"
+  },
+  {
+   "bytes": 414,
+   "doc_id": "attorney-outreach-spence-2026-11-08.md",
+   "record_hash": "8417d0fb99731c1aef96f5edc054193c2d565bbdd686f4b1349e53b607006efd",
+   "seq": 129,
+   "sha256": "5e2d878f5ef91073023a17d5452a788cd42fb03295c89456fd7f5121d3f78770",
+   "source_url": "https://www.spencelawyers.com/contact-us",
+   "title": "Attorney outreach \u2014 The Spence Law Firm web contact form submitted 2026-11-08 (\"Message Received\")",
+   "witnessed_at": "2026-11-08T18:20:45Z"
+  },
+  {
+   "bytes": 436,
+   "doc_id": "media-outreach-2026-11-08-01.md",
+   "record_hash": "29993c109f8454c8c08be886c60b61bafc62f5dab0efd71b59bc9452dc4f18d6",
+   "seq": 130,
+   "sha256": "b68397733c08e56761a50c9c75b441cb3553180277609009f279b3d0e08ec23a",
+   "source_url": "https://github.com/EvezArt/disclosure-file",
+   "title": "Media outreach \u2014 news@trib.com",
+   "witnessed_at": "2026-11-08T18:20:45Z"
+  },
+  {
+   "bytes": 449,
+   "doc_id": "media-outreach-2026-11-08-02.md",
+   "record_hash": "d735f35f486cf6fc6c2c91e000b2915d0b37621a0c8f0f394a1e226d4675b67e",
+   "seq": 131,
+   "sha256": "4e96d7671d4bc1f4d48b939cf67c02804dc6d35b6289120034e8b8bf6e50b134",
+   "source_url": "https://github.com/EvezArt/disclosure-file",
+   "title": "Media outreach \u2014 editor@wyofile.com",
+   "witnessed_at": "2026-11-08T18:20:45Z"
+  },
+  {
+   "bytes": 461,
+   "doc_id": "media-outreach-2026-11-08-03.md",
+   "record_hash": "ad42005df8d665a22d636a4162d5171939d6986368b152ca2d5e46c86a7e0ba0",
+   "seq": 132,
+   "sha256": "0844965dd0546b99855f4fe336f491d1dd0c2f06a6150cd63504ecbfdc82b084",
+   "source_url": "https://github.com/EvezArt/disclosure-file",
+   "title": "Media outreach \u2014 tips@cowboystatedaily.com",
+   "witnessed_at": "2026-11-08T18:20:45Z"
+  },
+  {
+   "bytes": 452,
+   "doc_id": "media-outreach-2026-11-08-04.md",
+   "record_hash": "4902b38bd3bb8d80bb4e74f2efbee1aae9d38d2ce06e26b0aa5a2ed1e8a16f27",
+   "seq": 133,
+   "sha256": "f193adbd37b94318cf7f20eb494463205a0e5464520d179a73dc7bd558cc977e",
+   "source_url": "https://github.com/EvezArt/disclosure-file",
+   "title": "Media outreach \u2014 tips@theintercept.com",
+   "witnessed_at": "2026-11-08T18:20:45Z"
+  },
+  {
+   "bytes": 460,
+   "doc_id": "media-outreach-2026-11-08-05.md",
+   "record_hash": "4fc2bbc7f04be8bcab359d620fa115b0c08e27b146fd0def482e81a08ed6ef4f",
+   "seq": 134,
+   "sha256": "2dae25d95dc6e5155972ec9567ce878a228b9493fe1cd2685200a5ab803e02e7",
+   "source_url": "https://github.com/EvezArt/disclosure-file",
+   "title": "Media outreach \u2014 gknapp@reviewjournal.com",
+   "witnessed_at": "2026-11-08T18:20:45Z"
+  },
+  {
+   "bytes": 6785,
+   "doc_id": "OBJECTION_TECHOFF_16090235.pdf",
+   "record_hash": "7b3e5928b354dbb8093c5c9c13f5b0d370b108f56b4c3f25e7cd29ba5323e507",
+   "seq": 135,
+   "sha256": "b2410ed4823a9da3ebb6897c474304200dc6d1ddaa8ba62a479505ce11413518",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/strike-off-objections",
+   "title": "Objection to compulsory strike-off - TECHOFF SRV LIMITED 16090235 (portal-ready PDF, COH2370479X)",
+   "witnessed_at": "2026-11-08T18:29:55Z"
+  },
+  {
+   "bytes": 4806,
+   "doc_id": "WYOMING_OMBUDSMAN_COMPLAINT_DRAFT.md",
+   "record_hash": "69cba526da541d0587b6a83be62b92e9ac7a8942a4dcea4b59481c324dd21e3a",
+   "seq": 136,
+   "sha256": "90b518dc59d1bbb3813649643155e24a6d38ce11d996e98db6e21c5765b18cde",
+   "source_url": "https://attorneygeneral.wyo.gov/",
+   "title": "Wyoming PRA Ombudsman complaint DRAFT (Darlena Potter, pr.ombudsman@wyo.gov) - NOT SENT, file on/after 2026-11-27",
+   "witnessed_at": "2026-11-08T18:29:55Z"
+  },
+  {
+   "bytes": 5112,
+   "doc_id": "medialand-asn-blocklist.md",
+   "record_hash": "5b1793f1de3b21557cb20cec28c03ee2852ebbd2d4d2c4842aa876bb4e534723",
+   "seq": 137,
+   "sha256": "28ca4ffab625cc0b3b972ab7eec70dcff0265b9628de9c7af1e7f08fea0b4344",
+   "source_url": "file:///opt/data/medialand-prefixes-live.json",
+   "title": "Medialand/ML.Cloud blocklist updated 2026-11-08 with LIVE RIPEstat announced-prefix set",
+   "witnessed_at": "2026-11-08T18:29:55Z"
+  },
+  {
+   "bytes": 132105,
+   "doc_id": "CH_overview_16090235.pdf",
+   "record_hash": "9e4388f1c0a361a62f29c1b130dc52fb90021dfadd20cc4b1c3321e711cbb605",
+   "seq": 138,
+   "sha256": "c42f43b6b324fe7689658511727672ba979e9aa3e9dbe26e468e18434f63f73d",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "Companies House overview page for TECHOFF SRV LIMITED 16090235 rendered to PDF 2026-11-08 (portal exhibit)",
+   "witnessed_at": "2026-11-08T18:29:55Z"
+  },
+  {
+   "bytes": 8646,
+   "doc_id": "RFJ_TIP_PACKAGE_MEDIALAND.md",
+   "record_hash": "350183ecf5e8ac6f9c5a400e8c7bee967d9eeb6e0bcbfc96765bb1f5258932a6",
+   "seq": 139,
+   "sha256": "e73529ab46638ca876bb85554ee2e60e946a28bb4bf9a9cd2fefd3d9a85da451",
+   "source_url": "https://rewardsforjustice.net/rewards/media-land/",
+   "title": "RFJ tip package - Media Land/ML.Cloud reward offer (up to $10M, ID/location of key operators; no victim loss required)",
+   "witnessed_at": "2026-11-08T18:35:15Z"
+  },
+  {
+   "bytes": 7365,
+   "doc_id": "NETWORK_EVIDENCE_MATRIX_v2.md",
+   "record_hash": "863d6f2a2b60592f72baefda32026e24ca3c2907ba6aebe11e0eeaa5f0d8ce7f",
+   "seq": 140,
+   "sha256": "b190538db98d9d6339510b877089e89fccbd3afa75ae6e90a4468c0515a04785",
+   "source_url": "https://rest.db.ripe.net/",
+   "title": "Network evidence matrix v2 - verified RIPE DB org/ASN facts: TECHOFF SRV LIMITED holds AS48090 at 35 Firs Avenue N11 3NE; 80.94.92.0/24 correction",
+   "witnessed_at": "2026-11-08T18:47:54Z"
+  },
+  {
+   "bytes": 6454,
+   "doc_id": "COH_OBJECTION_STATUS_MEMO.md",
+   "record_hash": "c05c78566a3fa04479fc144103d23c9875b8c18500465b5b77c21afe4b7da678",
+   "seq": 141,
+   "sha256": "e60c4bd70022836e03d61a03940e0faa2bf9841d3d66c77510c6c76925521df4",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/strike-off-objections",
+   "title": "Companies House objection status memo - COH2370479X unverified; strike-off 10 Nov 2026; portal login blocked",
+   "witnessed_at": "2026-11-08T18:47:54Z"
+  },
+  {
+   "bytes": 4099,
+   "doc_id": "wyoming-escalation-record-v2.md",
+   "record_hash": "458fb52c96dff896b2c34e7494b338839f5b6088ac4d58753a3ab417af655662",
+   "seq": 142,
+   "sha256": "9e74e4b78adc5b87a3eb80dbfb89d42afcf92d46c573e1997598be1168d181c1",
+   "source_url": "https://wyomingdci.wyo.gov/dci-homepage",
+   "title": "Wyoming PRA escalation record v2 - statutory clock per W.S. 16-4-202 (acknowledge 7 business days, produce 30 calendar days); supersedes v1 10-day figure",
+   "witnessed_at": "2026-11-08T18:54:00Z"
+  },
+  {
+   "bytes": 5436,
+   "doc_id": "WYOMING_OMBUDSMAN_COMPLAINT_DRAFT_v2.md",
+   "record_hash": "373df110523aeb855d7fce2ec3a6fa91a580244a6d83ac4d4d916fe15d50fbda",
+   "seq": 143,
+   "sha256": "2ca3e20d736854195ffcd844bc2322eee08328d3131eb05046cb5e370185b83d",
+   "source_url": "https://attorneygeneral.wyo.gov/",
+   "title": "Wyoming PRA Ombudsman complaint DRAFT v2 - corrected statutory clock (W.S. 16-4-202); NOT SENT",
+   "witnessed_at": "2026-11-08T18:54:00Z"
+  },
+  {
+   "bytes": 45678,
+   "doc_id": "uinta_public_information_request_form.pdf",
+   "record_hash": "08de3e718e41753fe10847818441cc1b7547a626601308e4ed024b0f5f7340e5",
+   "seq": 144,
+   "sha256": "b4a56ac76e563351571072378e75516af31361710d9333cae10923b3e5cbb964",
+   "source_url": "https://www.uintacountywy.gov/DocumentCenter/View/6437/Public-Information-Request-Form",
+   "title": "Uinta County Government Public Information Request Form (official county form, obtained 2026-11-08)",
+   "witnessed_at": "2026-11-08T18:54:00Z"
+  },
+  {
+   "bytes": 9457,
+   "doc_id": "RFJ_TIP_PACKAGE_MEDIALAND_v2.md",
+   "record_hash": "ca2ea3967ccbac62dc8317bebe5644562d551c2b67808124feb1f8b7daf75376",
+   "seq": 145,
+   "sha256": "447ff22404ac44ddcb870a321d859ea6b0ed92e767ad638168e44974debaaa5d",
+   "source_url": "https://rewardsforjustice.net/rewards/media-land/",
+   "title": "RFJ tip package v2 - adds evidence-base cross-reference to NETWORK_EVIDENCE_MATRIX_v2 (TECHOFF->AS48090 tie)",
+   "witnessed_at": "2026-11-08T18:57:04Z"
+  },
+  {
+   "bytes": 3465,
+   "doc_id": "uinta_form_COMPLETED_2026-11-08.pdf",
+   "record_hash": "eee0831c58e8b63b381f10d8f3bfad2f8d69cc92f7e6a84be03be6447d4b8341",
+   "seq": 146,
+   "sha256": "a506a2c58865b4e9d97f4af07f6566217e554bffcc96490e9c384a9d9a043377",
+   "source_url": "https://www.uintacountywy.gov/DocumentCenter/View/6437/Public-Information-Request-Form",
+   "title": "Uinta County Public Record Request form COMPLETED and sent 2026-11-08 (Maggard)",
+   "witnessed_at": "2026-11-08T20:13:58Z"
+  },
+  {
+   "bytes": 677,
+   "doc_id": "uinta-form-send-receipt-2026-11-08.json",
+   "record_hash": "3cc1aac81406874afb5611184a8fe59361d54a63bae8bd85ec6c421381cb490d",
+   "seq": 147,
+   "sha256": "cbf93c5ac53127732b0aa633335ead4c4240d7ca03d6a81422c83ad6a8c2bf30",
+   "source_url": "https://uintacountywy.gov/847/Public-Records-Requests",
+   "title": "Send receipt - completed Uinta County form to designated records person amhutchinson@uintacounty.com 2026-11-08",
+   "witnessed_at": "2026-11-08T20:13:58Z"
+  },
+  {
+   "bytes": 852,
+   "doc_id": "ch-objection-evidence-reply-2026-11-08.md",
+   "record_hash": "92707c8c8dd602ca5661ed594cd2f1ad6736e9e16825787a79f09dbb85e07d7e",
+   "seq": 148,
+   "sha256": "ecf65b56530a791e8cda90a9ce18a7960507082166f6c66c2bb4c84a44e3effd",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "Companies House objection evidence reply \u2014 ref COH2370479X \u2014 TECHOFF SRV LIMITED (16090235) \u2014 2026-11-08",
+   "witnessed_at": "2026-11-08T21:07:19Z"
+  },
+  {
+   "bytes": 702,
+   "doc_id": "uinta-county-followup-2026-11-08.md",
+   "record_hash": "b601807d45f0e2dfaf672f23d2d7b77e6a41cb4ede5c7811fee4c1a6481b8533",
+   "seq": 149,
+   "sha256": "6c850a40bd34ccd0b55078ba4f93283ad849ddadda6774544849b67631bacf30",
+   "source_url": "https://uintacountywy.gov/847/Public-Records-Requests",
+   "title": "Uinta County follow-up on the 2026-10-04 records request \u2014 Ryan Robert Maggard \u2014 2026-11-08",
+   "witnessed_at": "2026-11-08T21:07:19Z"
+  },
+  {
+   "bytes": 980,
+   "doc_id": "wyoming-ombudsman-complaint-2026-11-08.md",
+   "record_hash": "047c148088f25d769a16175c0a04ee073fb52a2d1a0a7d4daff02fc0ab63e580",
+   "seq": 150,
+   "sha256": "cffa3ddbcd7239bd7024a7f50344e3b197170e6d7efb02d120272d6532543bc6",
+   "source_url": "https://governor.wyo.gov/contact/public-records-ombudsman",
+   "title": "Wyoming Public Records Ombudsman complaint for determination of good cause \u2014 W.S. \u00a7 16-4-202(c)(v) \u2014 Uinta County Clerk's Office \u2014 2026-11-08",
+   "witnessed_at": "2026-11-08T21:07:19Z"
+  },
+  {
+   "bytes": 6981,
+   "doc_id": "AG-COMPLAINT-DRAFT-2026-11-08.md",
+   "record_hash": "324f2952bfcf98df86f2b16300b5da456abc1c287a9aabb75d1af196d324fc52",
+   "seq": 151,
+   "sha256": "3f408102fd374556573591250437877dc2d60d9eca00264e1f38e2008bcf7c1a",
+   "source_url": "https://attorneygeneral.wyo.gov/contact-us",
+   "title": "DRAFT \u2014 Complaint to the Wyoming Attorney General for determination of non-compliance under W.S. \u00a7 16-4-201 et seq. \u2014 2026-11-08 (NOT FILED)",
+   "witnessed_at": "2026-11-08T21:09:08Z"
+  },
+  {
+   "bytes": 3848,
+   "doc_id": "CH-ONLINE-OBJECTION-DRAFT-2026-11-08.md",
+   "record_hash": "6c45b9bf8da891f040f00794ebc0a389568f0129fc3f33fd3f1e6b1df91e91f8",
+   "seq": 152,
+   "sha256": "84980def4ad6c23fc983be6019262985baadceefc7d305ba106d71dab2299799",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "DRAFT \u2014 Companies House online objection to strike-off \u2014 ref COH2370479X \u2014 TECHOFF SRV LIMITED (16090235) \u2014 2026-11-08 (NOT FILED; 1 Dec 2026 deadline)",
+   "witnessed_at": "2026-11-08T21:09:08Z"
+  },
+  {
+   "bytes": 1458,
+   "doc_id": "CH-CORRECTIVE-LETTER-2026-11-08.md",
+   "record_hash": "771a2f9f90f8ab5997c386aefa897d68e3791dd0e7394893130cedb6e2e2baf7",
+   "seq": 153,
+   "sha256": "76e6bb9815704f3547e59d0606b7f8fbfa455d5b1352c5dc0aa2684a4906baf4",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "DRAFT \u2014 Corrective letter to Companies House Dissolution Section \u2014 ref COH2370479X \u2014 TECHOFF SRV LIMITED (16090235) \u2014 2026-11-08 (NOT SENT)",
+   "witnessed_at": "2026-11-09T21:32:20Z"
+  },
+  {
+   "bytes": 4845,
+   "doc_id": "CH-ONLINE-OBJECTION-DRAFT-2026-11-08-v2.md",
+   "record_hash": "6ecd1f114e13862a86e0a9a8e819e311551ff985cfeb18a4915aeeaeda987c0f",
+   "seq": 154,
+   "sha256": "068f918e4b4a17131d03973b3243f1c424ebab8f931773cc46a37f6457ac84c5",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "DRAFT v2 \u2014 Companies House online objection to strike-off \u2014 ref COH2370479X \u2014 TECHOFF SRV LIMITED (16090235) \u2014 2026-11-08 (NOT FILED; strike-off 10 Nov 2026; corrects v1 deadline)",
+   "witnessed_at": "2026-11-09T21:32:20Z"
+  },
+  {
+   "bytes": 2022,
+   "doc_id": "CH-CORRECTIVE-LETTER-2026-11-08-v2.md",
+   "record_hash": "5d627cbeb68cb1277533d3a9c92d04e87e7b9fbb627a0c164569a483d0019ea0",
+   "seq": 155,
+   "sha256": "c34ba344e5e0162480a23647f7217a22be05f988383f1a3cf9df328bd4aecdf4",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "DRAFT v2 \u2014 Corrective letter to Companies House Dissolution Section \u2014 ref COH2370479X \u2014 TECHOFF SRV LIMITED (16090235) \u2014 2026-11-09 (NOT SENT; supersedes v1; corrects ledger sentence and AS48090/80.94.92.166 attribution)",
+   "witnessed_at": "2026-11-09T22:08:35Z"
+  },
+  {
+   "bytes": 5678,
+   "doc_id": "CH-ONLINE-OBJECTION-DRAFT-2026-11-08-v3.md",
+   "record_hash": "8e6cb77fa7c61fa30fd9766ee0bc193714d0cd7956f02d9bb132f43d0d1f3647",
+   "seq": 156,
+   "sha256": "f77e4f6c5744023659ef1c072f226ed8284dde60936ba43b2e86b529c75d0673",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/strike-off-objections",
+   "title": "DRAFT v3 \u2014 Companies House online objection to strike-off \u2014 ref COH2370479X \u2014 TECHOFF SRV LIMITED (16090235) \u2014 2026-11-09 (NOT FILED; strike-off 10 Nov 2026; fixes v2 form URL 404 and AS48090/80.94.92.166 attribution)",
+   "witnessed_at": "2026-11-09T22:08:35Z"
+  },
+  {
+   "bytes": 1266,
+   "doc_id": "ch-corrective-letter-v2-SENT-2026-11-09.md",
+   "record_hash": "129640a95711e031455970044567092beee03bd0a354e99956ed73d0ec375414",
+   "seq": 157,
+   "sha256": "580d2255a1ad60f12cb08b37d7b2a38f2e6cc9ba03039b51aae9bc5aad769a33",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "SENT \u2014 Corrective letter to Companies House Dissolution Section \u2014 ref COH2370479X \u2014 TECHOFF SRV LIMITED (16090235) \u2014 2026-11-09",
+   "witnessed_at": "2026-11-09T23:34:38Z"
+  },
+  {
+   "bytes": 10453,
+   "doc_id": "WYOMING-PETITION-2026-11-09-VERIFIED-REDRAFT.md",
+   "record_hash": "b578a91f1ab1cc1428ec6f81dc1aa58c8a9d79d83fe9c1679296088da1e0e899",
+   "seq": 158,
+   "sha256": "dbd973196afc1ab6ab809eb04fd061f8807e399c1d483718e49b3a198fcd0fd5",
+   "source_url": "https://www.courts.state.wy.us/",
+   "title": "VERIFIED REDRAFT \u2014 Petition for determination of good cause and order compelling production \u2014 W.S. \u00a7 16-4-202(c)(v), \u00a7 16-4-203(e) \u2014 Uinta County \u2014 2026-11-09 (NOT FILED)",
+   "witnessed_at": "2026-11-09T23:37:52Z"
+  },
+  {
+   "bytes": 1013,
+   "doc_id": "ch-objection-urgent-SENT-2026-11-10.md",
+   "record_hash": "bf3a2ebd263d60a418823f57aaec24577ecd55013578fbf48cb42361397c35b6",
+   "seq": 159,
+   "sha256": "8aec1b55ba705d631deb08fd31c55938ab18d3f9ee24b7d84be5e6f230daac32",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "SENT \u2014 Urgent objection to strike-off (email) \u2014 Ref COH2370479X \u2014 TECHOFF SRV LIMITED (16090235) \u2014 strike-off due 10 Nov 2026",
+   "witnessed_at": "2026-11-10T00:20:33Z"
+  },
+  {
+   "bytes": 799,
+   "doc_id": "bullhead-az-records-reply-2026-11-10.md",
+   "record_hash": "8ea86a6686cc9a7ebd1e7b2c6a94fd1ab5da58c4ffcde94fb78c73fcb27ae0c4",
+   "seq": 160,
+   "sha256": "3a059497908889a65f555c9840f101264547f4c16e073551d4b31d68b47f2281",
+   "source_url": "https://www.bullheadcityaz.gov/",
+   "title": "SENT \u2014 Bullhead City (AZ) public-records reply: not a media request; requester details furnished \u2014 AZDPS I26056549 \u2014 2026-11-10",
+   "witnessed_at": "2026-11-10T00:24:30Z"
+  },
+  {
+   "bytes": 5414,
+   "doc_id": "RFJ-PRONG-UPDATE-2026-11-10.md",
+   "record_hash": "672889c10c1f3cac6114c88445c5a6000eee6d1a3ef851d3ce652ace50862d53",
+   "seq": 161,
+   "sha256": "28332df39dd08d0007587f9fbde515b8f4e538196b5bc0c032713e63807bb526",
+   "source_url": "https://www.rusprofile.ru/id/10187866",
+   "title": "RFJ foreign-government prong \u2014 evidence update: Media Land state contract (Stavropol) + Severen-Telecom MVD contracting \u2014 2026-11-10",
+   "witnessed_at": "2026-11-10T01:43:22Z"
+  },
+  {
+   "bytes": 3858,
+   "doc_id": "REPORT_ProLIF_CVE-2026-11-10.md",
+   "record_hash": "89f517e9c8fc316f58b4e8a24c8a74bdc0dc448a69e3c872feed51ddff919276",
+   "seq": 162,
+   "sha256": "06d07ccc36e37651c9bd07f89a4201cc516d2d275ae00f23525b5a1fc11e582f",
+   "source_url": "https://github.com/chemosim-lab/ProLIF/blob/master/.github/workflows/type-check.yml",
+   "title": "Security report \u2014 command injection in ProLIF .github/workflows/type-check.yml (pull_request_target) \u2014 sent to C\u00e9dric Bouysset 2026-11-10",
+   "witnessed_at": "2026-11-10T02:24:51Z"
+  },
+  {
+   "bytes": 4676,
+   "doc_id": "REPORT_PointCloudCrafter_CVE-2026-11-10.md",
+   "record_hash": "2ac75116637b4b60d821bd949b93b3f1ec2d133f495b0b4c0eeaa1639c1dc942",
+   "seq": 163,
+   "sha256": "825cdc29a9aa39202901816800f0cab25142fc33e8c36a0eae7acf275dc78559",
+   "source_url": "https://github.com/TUMFTM/PointCloudCrafter/blob/HEAD/.github/workflows/docs.yml",
+   "title": "Security report \u2014 command injection in PointCloudCrafter .github/workflows/docs.yml (workflow_run, contents: write) \u2014 sent to TUM maintainers 2026-11-10",
+   "witnessed_at": "2026-11-10T02:57:53Z"
+  },
+  {
+   "bytes": 3678,
+   "doc_id": "CH_status_15728390.pdf",
+   "record_hash": "9978a6aec00db348654874065cf3bbb2eba8bdbb8f22659b9efd9a2894f89c4d",
+   "seq": 164,
+   "sha256": "bfa6dfcb64334cf899ed04ff908e316c6cc7f05de96d2499c118d96b6756bb2c",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15728390",
+   "title": "Objection evidence \u2014 SERV.HOST GROUP LTD (15728390) \u2014 CH_status_15728390.pdf",
+   "witnessed_at": "2026-11-10T09:15:13Z"
+  },
+  {
+   "bytes": 11067,
+   "doc_id": "GAZ1_15728390.pdf",
+   "record_hash": "6a9827e4b245dc2b44eb4fd783287cea8699f88b633f77409868aad60f1ca64c",
+   "seq": 165,
+   "sha256": "dc8aae17d0546390eb06bd13fa5d42dd9ef74f5b3d439753adeda934e10b9c35",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15728390",
+   "title": "Objection evidence \u2014 SERV.HOST GROUP LTD (15728390) \u2014 GAZ1_15728390.pdf",
+   "witnessed_at": "2026-11-10T09:15:13Z"
+  },
+  {
+   "bytes": 6018,
+   "doc_id": "OBJECTION_SERVHOST_15728390.pdf",
+   "record_hash": "14b36674cd0061498e2986f7f66517bfa0b41b45c40d5f10b003838251507b9f",
+   "seq": 166,
+   "sha256": "2512c0a72324482f28a98864ceb196968dc8ffa57961625b7c54a94f6450aafc",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15728390",
+   "title": "Objection evidence \u2014 SERV.HOST GROUP LTD (15728390) \u2014 OBJECTION_SERVHOST_15728390.pdf",
+   "witnessed_at": "2026-11-10T09:15:13Z"
+  },
+  {
+   "bytes": 4326,
+   "doc_id": "RIPE_evidence_15728390.pdf",
+   "record_hash": "bd89e0b6d8c7b2abd9f214ec5f546b0cc6e7c952323b68394487160c73b4ba81",
+   "seq": 167,
+   "sha256": "14d4be14178c947c08781eb974db16bb6a346cff8305632aeed84780229165f0",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15728390",
+   "title": "Objection evidence \u2014 SERV.HOST GROUP LTD (15728390) \u2014 RIPE_evidence_15728390.pdf",
+   "witnessed_at": "2026-11-10T09:15:13Z"
+  },
+  {
+   "bytes": 5904,
+   "doc_id": "ch-objection-servhost-SENT-2026-11-10.md",
+   "record_hash": "44611bf5219f92ae692ddc12ee3fe80c6530a4117242d897e3389d671d2c2100",
+   "seq": 168,
+   "sha256": "53a11a17a738adef0a9f8513279b00b911dce87786cfd01c58984425ff160db2",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15728390",
+   "title": "SENT \u2014 Objection to strike-off (email) \u2014 SERV.HOST GROUP LTD (15728390) \u2014 s.1002A \u2014 strike-off due 10 Nov 2026",
+   "witnessed_at": "2026-11-10T09:15:13Z"
+  },
+  {
+   "bytes": 1101,
+   "doc_id": "finance_advisory_committee_meeting_2026-11-16_document_4117.pdf",
+   "record_hash": "afa023af617ca6d6f054b76716f9640802bb7d91e8f0f30ceaab12ebf753474a",
+   "seq": 169,
+   "sha256": "51ebd09316ab45f2b8bcfb20c28800aaeee64984cbae6b9014baa2f10704497b",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4117&compileOutputType=1",
+   "title": "Finance Advisory Committee Meeting  \u2014 Document (Nov 16, 2026)",
+   "witnessed_at": "2026-11-10T12:59:22Z"
+  },
+  {
+   "bytes": 7765457,
+   "doc_id": "finance_advisory_committee_meeting_2026-11-16_document_4119.pdf",
+   "record_hash": "3618cee1731c0b94a231fae02c6aa75e6421d524f79a211f7d811606b879e2f7",
+   "seq": 170,
+   "sha256": "d9d9696015475438f080ec02d5ce99fb0fe3acdf9febd2772f81f426a5e887f4",
+   "source_url": "https://cathedralcity.primegov.com/Public/CompiledDocument?meetingTemplateId=4119&compileOutputType=1",
+   "title": "Finance Advisory Committee Meeting  \u2014 Document (Nov 16, 2026)",
+   "witnessed_at": "2026-11-10T12:59:22Z"
+  },
+  {
+   "bytes": 3456,
+   "doc_id": "REPORT_yake_CVE-2026-11-10.md",
+   "record_hash": "ca03dd4f8369f9b4123e08c27e1fc39dae08d7a951c90524e6e4dc48c0565a31",
+   "seq": 171,
+   "sha256": "473ec4c92a00b5cd904449b937638bf86e7a8bb5d012f2f758399128b6e3b403",
+   "source_url": "https://github.com/INESCTEC/yake/blob/master/.github/workflows/create-release.yml",
+   "title": "Security report \u2014 command injection in yake .github/workflows/create-release.yml \u2014 sent to INESCTEC maintainers 2026-11-10",
+   "witnessed_at": "2026-11-10T18:31:43Z"
+  },
+  {
+   "bytes": 948,
+   "doc_id": "graph-build-record-2026-11-10.md",
+   "record_hash": "0a25878baa0e58e37ca19bf7113ab2a47928a44e3391c26d53562775e76be6c7",
+   "seq": 172,
+   "sha256": "eae14d18f1d14f1131d80e1b14866b7ccb38cb665360e1dfa91f11ab8ae08090",
+   "source_url": "https://github.com/EvezArt/evident-graph",
+   "title": "EVIDENT institutional-failure graph \u2014 build record 2026-11-10",
+   "witnessed_at": "2026-11-10T20:55:27Z"
+  },
+  {
+   "bytes": 1133,
+   "doc_id": "kalshi-bounty-status-inquiry-SENT-2026-11-10.md",
+   "record_hash": "b404de643c67de279c325a92d920511fb1e9e7043dc30e9f18f6d4ad5fd06e1e",
+   "seq": 173,
+   "sha256": "ec30fa822fda623f61c00ca2608b99b2711d25459b80d4cc02ddf0f7a15063a2",
+   "source_url": "https://help.kalshi.com/en/articles/13823852-market-bug-bounty-program",
+   "title": "Kalshi Market Bug Bounty status inquiry \u2014 SENT 2026-11-10 (22 submissions)",
+   "witnessed_at": "2026-11-10T21:07:55Z"
+  },
+  {
+   "bytes": 1284,
+   "doc_id": "HCB-MEETING-INVITE-SENT-2026-11-11.md",
+   "record_hash": "9681e814fd9adb63beb99fedb1537b9a220d6b2b78320a69b6ed04fdcd58d7ca",
+   "seq": 174,
+   "sha256": "b65988807fafc41f70d7e3a45c91423e3ef550f5cbb341dbd788f3cfc6892ad1",
+   "source_url": "https://beast-confirmed-pill-gods.trycloudflare.com/group/evident/",
+   "title": "HCB meeting invitation - self-hosted Galene room (2026-11-11)",
+   "witnessed_at": "2026-11-11T02:40:54Z"
+  },
+  {
+   "bytes": 2274,
+   "doc_id": "REPORT_po-angular_CVE-2026-11-11.md",
+   "record_hash": "7c315e12573fae800e63f4ba7bb85fae89c6831f4a7014560ebb6f5acbd7c347",
+   "seq": 175,
+   "sha256": "8cc703bc480882dc3023b837c41c952f5a0afffcc33a426bc972e1828edb3ac5",
+   "source_url": "https://github.com/po-ui/po-angular/blob/HEAD/.github/workflows/issue.yml",
+   "title": "Security report \u2014 command injection in po-ui/po-angular .github/workflows/issue.yml \u2014 sent to PO UI (poui@totvs.com.br) 2026-11-11",
+   "witnessed_at": "2026-11-11T09:19:24Z"
+  },
+  {
+   "bytes": 1925,
+   "doc_id": "REPORT_open-ptc-agent_CVE-2026-11-11.md",
+   "record_hash": "3a4733438e3970e69883b4a1085df51c3ec32f2400143deccc6c6e009f9291cb",
+   "seq": 176,
+   "sha256": "e290039e5192f30bc76cbf89c4364502da588836a490582610b828ec3b80ab13",
+   "source_url": "https://github.com/Chen-zexi/open-ptc-agent/blob/HEAD/.github/workflows/claude.yml",
+   "title": "Security report \u2014 command injection in Chen-zexi/open-ptc-agent .github/workflows/claude.yml \u2014 sent to Alan Chen (zc2610@nyu.edu) 2026-11-11",
+   "witnessed_at": "2026-11-11T09:21:09Z"
+  },
+  {
+   "bytes": 1767,
+   "doc_id": "REPORT_anaconda-issues_CVE-2026-11-11.md",
+   "record_hash": "cf5b07a2bbd7ddf1bea634a4fecfb7efcd9e10ee06c396cc5cd4114676e03a13",
+   "seq": 177,
+   "sha256": "fe1a4e58c670747727995a95f342fa2f088f5f2745a53cecc73240be49a9211c",
+   "source_url": "https://github.com/ContinuumIO/anaconda-issues/blob/HEAD/.github/workflows/dot-org-filter.yml",
+   "title": "Security report \u2014 command injection in ContinuumIO/anaconda-issues .github/workflows/dot-org-filter.yml \u2014 sent to Anaconda (info@anaconda.com) 2026-11-11",
+   "witnessed_at": "2026-11-11T09:22:40Z"
+  },
+  {
+   "bytes": 1731,
+   "doc_id": "REPORT_dolma_CVE-2026-11-11.md",
+   "record_hash": "17e73983eae8cac44fc1a593f7df1525ac21f86fd746cd495d78c0742beac018",
+   "seq": 178,
+   "sha256": "54e8f5241f9806beabd2ee999645a7efc738fb5861a78412335892b856cafd9b",
+   "source_url": "https://github.com/allenai/dolma/blob/main/.github/workflows/CI.yml",
+   "title": "Security report \u2014 command injection in allenai/dolma .github/workflows/CI.yml \u2014 sent to Ai2 security (security@allenai.org) 2026-11-11",
+   "witnessed_at": "2026-11-11T15:30:56Z"
+  },
+  {
+   "bytes": 1942,
+   "doc_id": "REPORT_gluon-cv_CVE-2026-11-11.md",
+   "record_hash": "f3b8b1d8039d28ff4496b71881f4e0128ec7db8818105506735f45f58e112d8a",
+   "seq": 179,
+   "sha256": "eff5f12ad6f9c81247be5b108578de1d35fe6738156e09e6a88b58575498b034",
+   "source_url": "https://github.com/dmlc/gluon-cv/blob/master/.github/workflows/unittest.yml",
+   "title": "Security report \u2014 command injection in dmlc/gluon-cv .github/workflows/unittest.yml \u2014 sent to Yi Zhu (yizhu59@gmail.com) 2026-11-11",
+   "witnessed_at": "2026-11-11T15:35:14Z"
+  },
+  {
+   "bytes": 1572,
+   "doc_id": "REPORT_substrate_CVE-2026-11-11.md",
+   "record_hash": "d0cf3b2aa72fb4f9f07625f77c30b3b26c7444b20654f1ed8eee99861d1f3d3f",
+   "seq": 180,
+   "sha256": "2ae71f81cf60ba3f6bbb4e83fa8abf16e7c4f422518147876bfd1acd579e7e1d",
+   "source_url": "https://github.com/superlinear-ai/substrate/blob/main/.github/workflows/pr.yml",
+   "title": "Security report \u2014 command injection in superlinear-ai/substrate .github/workflows/pr.yml \u2014 sent to Superlinear (hello@superlinear.eu) 2026-11-11",
+   "witnessed_at": "2026-11-11T15:39:18Z"
+  },
+  {
+   "bytes": 1614,
+   "doc_id": "REPORT_pusher-http-ruby_CVE-2026-11-11.md",
+   "record_hash": "71b2d0388dbd4a4b177a9b64b25ba04233909dd346559413325a0271def01519",
+   "seq": 181,
+   "sha256": "824a35ecb5c27e8e23214bf8420a7d5c11935869c7086716c179b72b7d8775c5",
+   "source_url": "https://github.com/pusher/pusher-http-ruby/blob/master/.github/workflows/release.yml",
+   "title": "Security report \u2014 command injection in pusher/pusher-http-ruby .github/workflows/release.yml \u2014 sent to Pusher (support@pusher.com) 2026-11-11",
+   "witnessed_at": "2026-11-11T15:49:18Z"
+  },
+  {
+   "bytes": 1756,
+   "doc_id": "REPORT_react-native-google-fit_CVE-2026-11-11.md",
+   "record_hash": "83e6c8397a05df760fb96a521b88baf361abbc2cb83431a0a11fe56d27763b96",
+   "seq": 182,
+   "sha256": "3bfd4cf5332f5565e3c608ae720155a06255846b57acb51bd995e3b965d2cd84",
+   "source_url": "https://github.com/StasDoskalenko/react-native-google-fit/blob/master/.github/workflows/publish-npm.yml",
+   "title": "Security report \u2014 command injection in StasDoskalenko/react-native-google-fit .github/workflows/publish-npm.yml \u2014 sent to Stas Doskalenko 2026-11-11",
+   "witnessed_at": "2026-11-11T15:49:18Z"
+  },
+  {
+   "bytes": 1740,
+   "doc_id": "REPORT_libplctag_CVE-2026-11-11.md",
+   "record_hash": "8e01257d4465df3e389589b476b1a662db9aad796cc373dadd70541c41900c60",
+   "seq": 183,
+   "sha256": "eed97068cd30ce7941ad60f15aa833cdaf9867a9072ae69ad1e6fec1f39942cf",
+   "source_url": "https://github.com/libplctag/libplctag/blob/release/.github/workflows/ci.yml",
+   "title": "Security report \u2014 command injection in libplctag/libplctag .github/workflows/ci.yml \u2014 sent to Kyle Hayes (kyle.hayes@gmail.com) 2026-11-11",
+   "witnessed_at": "2026-11-11T16:24:40Z"
+  },
+  {
+   "bytes": 1536,
+   "doc_id": "ombudsman-supplemental-2026-11-11.md",
+   "record_hash": "9ee96a5b71a528b60b00aed475f3510c4fdc876f67a5c76dfed0c61e7011cea7",
+   "seq": 184,
+   "sha256": "25aeee56ffbeb43bb49d4320b2f96f3e3b5d24e5ca051db747552e777d644063",
+   "source_url": "https://alpha.creativecirclecdn.com/nmcwyw/files/20240125-173536-74fcc921000b6fff934797c474d38a46.zip~20220819.pdf",
+   "title": "Supplemental evidence letter to the Wyoming Public Records Ombudsman (pr.ombudsman@wyo.gov) - Aug 2022 EPD arrest record - sent 2026-11-11",
+   "witnessed_at": "2026-11-11T17:08:40Z"
+  },
+  {
+   "bytes": 1576,
+   "doc_id": "companies-house-techoff-objection-2026-11-11.md",
+   "record_hash": "81618ef0bd183d732acc17ca14e6726e1a4ec52b82d2126340a7e1389661d720",
+   "seq": 185,
+   "sha256": "2c7940f8c7cbecd59239666a7c29073455d83bdc1ef74945cb6b59ab0ca0cd8e",
+   "source_url": "https://www.gov.uk/object-to-a-limited-company-being-struck-off/make-an-objection",
+   "title": "Companies House reply - TECHOFF SRV LIMITED (16090235) - objection confirmed until 12 May 2027 - ref COH2370479X - 2026-11-11",
+   "witnessed_at": "2026-11-11T17:19:31Z"
+  },
+  {
+   "bytes": 299539,
+   "doc_id": "HCB_Certificate_of_Status.pdf",
+   "record_hash": "aef1cc0430c2b5f21bd644de4e1936aebe557c45e133046e77c398821b3a628f",
+   "seq": 186,
+   "sha256": "916ac74718d64b9bb38b6710fb9949436dfcfbbdad33de8e88b33a4fd3a73927",
+   "source_url": "https://hcb.hackclub.com/documents/common-certificate-of-status-pdf",
+   "title": "The Hack Foundation (HCB) California Secretary of State Certificate of Status - EIN 81-2908499 - funder-facing 501(c)(3) document",
+   "witnessed_at": "2026-11-11T18:53:01Z"
+  },
+  {
+   "bytes": 244668,
+   "doc_id": "HCB_W9_2026.pdf",
+   "record_hash": "5cf09becd104410ad395f252ec07f2a457bf3bba68aa6ceb80dffbe17f9b414b",
+   "seq": 187,
+   "sha256": "eca5daa4dbb4d671b257a26d914ee3cc78ba1a84bd2a656d1f6f344e95cdf23d",
+   "source_url": "https://hcb.hackclub.com/documents/common-2026-hack-club-w9",
+   "title": "The Hack Foundation (HCB) IRS Form W-9 - EIN 81-2908499 - funder-facing 501(c)(3) document",
+   "witnessed_at": "2026-11-11T18:53:01Z"
+  },
+  {
+   "bytes": 1122,
+   "doc_id": "hcb-deadline-escalation-2026-11-11.md",
+   "record_hash": "1b7717981e6847025bb48803f72f6574958965a4c47cc61700b7f10b6ca337c6",
+   "seq": 188,
+   "sha256": "57dbf52b563c4ddcd3cd4e252296a8567f87cd61a034d9f5af31a590c77e1aee",
+   "source_url": "https://hcb.hackclub.com/applications/zoUx3X",
+   "title": "Time-sensitive escalation to HCB (Meagan + hcb@hackclub.com) - EVIDENT application under review since 20 Oct - Cities Deliver deadline 29 Nov - 2026-11-11",
+   "witnessed_at": "2026-11-11T18:57:24Z"
+  },
+  {
+   "bytes": 1778,
+   "doc_id": "CH-OBJECTION-ACCEPTED-TECHOFF-2026-11-11.md",
+   "record_hash": "cf9a2d542b80046a4ee365fd14dec649ea4a72862221d9666cfaf4946c93b5b9",
+   "seq": 189,
+   "sha256": "d647881d22c08ac3a06b853b8364c182427456a5e5c13c05dbdcf76c1eab8947",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "Companies House objection ACCEPTED - TECHOFF SRV LIMITED strike-off stayed to 12 May 2027",
+   "witnessed_at": "2026-11-11T22:17:54Z"
+  },
+  {
+   "bytes": 1521,
+   "doc_id": "WY-DOC-26-703-CLOSED-FULFILLED-2026-11-10.md",
+   "record_hash": "dc25781f00779805f8d4818146177278af550ba16725b22a2074596f5666e8f4",
+   "seq": 190,
+   "sha256": "160c2fcc5a6671cb4cd7fa2622a064ce2f0257435b0324da3428b4aa9de538a2",
+   "source_url": "https://wydoc.nextrequest.com",
+   "title": "Wyoming DOC request #26-703 closed - all records released, request fulfilled",
+   "witnessed_at": "2026-11-11T22:17:54Z"
+  },
+  {
+   "bytes": 2308,
+   "doc_id": "cities-deliver-loi-final-request-2026-11-11.md",
+   "record_hash": "69d7f7a2d66457cc15f5f83b3ef74b1d3a6365e36fce343393f52759e290cde7",
+   "seq": 191,
+   "sha256": "8e6f746d328925297bc112d646d92061781463658badf2a1269eb491e4d85daa",
+   "source_url": "https://citiesdeliver.rockefellerfoundation.org/",
+   "title": "Cities Deliver - final letter-of-intent request to the City of Cathedral City (Mayor, Mayor Pro Tem, City Manager, City Clerk) - internal deadline 20 Nov 2026",
+   "witnessed_at": "2026-11-11T23:02:07Z"
+  },
+  {
+   "bytes": 2132,
+   "doc_id": "companies-house-servhost-objection-request-2026-11-11.md",
+   "record_hash": "0af19c3aadf54b20d17f673a201f469a9aec8fd230de7bf2694428e16e122dba",
+   "seq": 192,
+   "sha256": "eb3a36b8dd61ddc4829d6020fbdb935c86d57c331035d7c29f89fa126e59c4f0",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15728390",
+   "title": "Companies House - SERV.HOST GROUP LTD (15728390) objection registration request with dated evidence - ref COH2433793X - 2026-11-11",
+   "witnessed_at": "2026-11-11T23:02:07Z"
+  },
+  {
+   "bytes": 1257,
+   "doc_id": "libplctag-security-acknowledgment-2026-11-11.md",
+   "record_hash": "b434c0ed2f0521469c61a049dc54a0116bdd147e9240544d6fa2d42ec0cd82bc",
+   "seq": 193,
+   "sha256": "988109952d61bc824f82615aa0f95b55aba5065259d3311ce0861da64a46df41",
+   "source_url": "https://github.com/libplctag/libplctag",
+   "title": "libplctag/libplctag security report ACKNOWLEDGED by maintainer Kyle Hayes - advisory crediting Steven Crawford-Maggard (EVEZ666) promised",
+   "witnessed_at": "2026-11-11T23:02:07Z"
+  },
+  {
+   "bytes": 37867,
+   "doc_id": "Cathedral-City-LOI-prefilled-2026-11-11.docx",
+   "record_hash": "c342868a3d3b5916840ecfaa3da66ad0b621e75b79b8ba5198e996b5aab85976",
+   "seq": 194,
+   "sha256": "65a9beb3a2e2462ced870d6ac36a55b12d5aeb71f28eae582fc0e3b7e49f4562",
+   "source_url": "https://citiesdeliver.rockefellerfoundation.org/",
+   "title": "Cities Deliver - pre-filled Letter of Intent for the City of Cathedral City (funder template, ready for letterhead and signature)",
+   "witnessed_at": "2026-11-11T23:49:08Z"
+  },
+  {
+   "bytes": 1543,
+   "doc_id": "CH-DISS16-SOAS-TECHOFF-2026-11-12.md",
+   "record_hash": "c306ff51554616a0c7904a40540bf7c48570234afb610e154926da7ab2c3cd15",
+   "seq": 195,
+   "sha256": "e6b155f8b958f934751814f5199f53237f9e51b29527d15bdeeee96aafe80fd0",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235/filing-history",
+   "title": "Companies House DISS16(SOAS) - TECHOFF SRV LIMITED (16090235) - compulsory strike-off action suspended 12 Nov 2026 - change note (NOT escalation: no Dissolved, no new Gazette notice)",
+   "witnessed_at": "2026-11-12T09:18:02Z"
+  },
+  {
+   "bytes": 46025,
+   "doc_id": "CH_filing_history_16090235_2026-11-12.html",
+   "record_hash": "db1c1e4f3a17a6b014e7348e435a9d38f74428ee6f402ead6a021285a1941749",
+   "seq": 196,
+   "sha256": "dd5ad14960b663551d99b617b46eec8f2e7733ea1d0a67fa4879e14a72fac4be",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235/filing-history",
+   "title": "Companies House filing history - TECHOFF SRV LIMITED (16090235) - captured 2026-11-12 - shows DISS16(SOAS) 'Compulsory strike-off action has been suspended' filed 12 Nov 2026",
+   "witnessed_at": "2026-11-12T09:18:02Z"
+  },
+  {
+   "bytes": 36369,
+   "doc_id": "CH_overview_16090235_2026-11-12.html",
+   "record_hash": "3341ba8a85c757bc0d2b259d38217419dee2e601b1ac6a42195215852da2a4f8",
+   "seq": 197,
+   "sha256": "ef718aea08cca7a119de9f6c9080aef5776d23c6c47c74a170caa6900b09a439",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "Companies House overview - TECHOFF SRV LIMITED (16090235) - captured 2026-11-12 - status Active - Active proposal to strike off (label unchanged)",
+   "witnessed_at": "2026-11-12T09:18:02Z"
+  },
+  {
+   "bytes": 37707,
+   "doc_id": "LOI-CathedralCity-2026-11-12.docx",
+   "record_hash": "490a07cc85fd892e3ce60479f2c0a0f99a135278324a657cb04893bb8a971f9c",
+   "seq": 198,
+   "sha256": "fff4e7f3a9515b05a55333378ff82cd527f2f8c8ba6b30625fe2c1cdc594f702",
+   "source_url": "https://citiesdeliver.rockefellerfoundation.org/docs/RFNPrograms/LetterofIntentTemplate.pdf",
+   "title": "Letter of Intent - City of Cathedral City (editable)",
+   "witnessed_at": "2026-11-12T15:18:11Z"
+  },
+  {
+   "bytes": 3053,
+   "doc_id": "LOI-CathedralCity-2026-11-12.pdf",
+   "record_hash": "6ed41cf9ae4846270c8a2efd51d54f4c28f818c7f6a0fd10af445aa61d7d7939",
+   "seq": 199,
+   "sha256": "ab176f9f487a3589b45d31cb9e3d601e5cf4ee36786d9d05986fc22bcce65636",
+   "source_url": "https://citiesdeliver.rockefellerfoundation.org/docs/RFNPrograms/LetterofIntentTemplate.pdf",
+   "title": "Letter of Intent - City of Cathedral City (ready-to-sign)",
+   "witnessed_at": "2026-11-12T15:18:11Z"
+  },
+  {
+   "bytes": 3009,
+   "doc_id": "LOI-DesertHotSprings-2026-11-12.pdf",
+   "record_hash": "44f9fd3f1ec8c64898315d48836aab653ba2df4e96e3e3d9028fa521c9a06f3f",
+   "seq": 200,
+   "sha256": "f06bd291fd86c7bf22b32fb4cef632902cfb39b329a2b054c90ec4d012bb3e8e",
+   "source_url": "https://citiesdeliver.rockefellerfoundation.org/docs/RFNPrograms/LetterofIntentTemplate.pdf",
+   "title": "Letter of Intent - City of Desert Hot Springs (ready-to-sign)",
+   "witnessed_at": "2026-11-12T15:29:10Z"
+  },
+  {
+   "bytes": 2994,
+   "doc_id": "LOI-Indio-2026-11-12.pdf",
+   "record_hash": "1bb50c098d102151b10a8f7b113ad895c5ccf1594dfa1c95b4445caec2f8c2ee",
+   "seq": 201,
+   "sha256": "08e32d8dbb0fe8fe25c97f030ac5b0c13587f7a215ae66bcd2351a41baad0674",
+   "source_url": "https://citiesdeliver.rockefellerfoundation.org/docs/RFNPrograms/LetterofIntentTemplate.pdf",
+   "title": "Letter of Intent - City of Indio (ready-to-sign)",
+   "witnessed_at": "2026-11-12T15:29:10Z"
+  },
+  {
+   "bytes": 2390,
+   "doc_id": "REPORT_bha_CVE-2026-11-12.md",
+   "record_hash": "9b638e497ad91068f8d8f45b9a928faf8e2e83db99444c771dc025dfa1031fd0",
+   "seq": 202,
+   "sha256": "b2f71c6867e6f56057394d8210424759c5138daef61b42cec2c6720ec2da05ed",
+   "source_url": "https://github.com/banned-historical-archives/banned-historical-archives.github.io",
+   "title": "CVE disclosure record - BHA GitHub Actions injection (blocked on contact)",
+   "witnessed_at": "2026-11-12T19:00:23Z"
+  },
+  {
+   "bytes": 1463,
+   "doc_id": "companies-house-techoff-strikeoff-suspended-2026-11-12.md",
+   "record_hash": "717d6c9f1bbe9bf7e383a360cb3f0ed4d719f757bc25d6a4f14132d93b4791ac",
+   "seq": 203,
+   "sha256": "7bef4394e34f8c92d16a200c255e4cc5a9b83e19b74a4bc5b0c8b9fd13358f8d",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16090235",
+   "title": "Companies House strike-off watch \u2014 TECHOFF SRV LIMITED (16090235) \u2014 compulsory strike-off suspended",
+   "witnessed_at": "2026-11-12T23:00:25Z"
+  },
+  {
+   "bytes": 2523,
+   "doc_id": "servhost-ripe-network-footprint-2026-11-12.md",
+   "record_hash": "9719dd350f0ece089833a8d15dbf27bc8bd869131e4fdca47c388d4718348712",
+   "seq": 204,
+   "sha256": "a7ea2466e70ccf0b31b4c2b585d0b2265e6f303ae47c74c5cb5e1c96094c1a1b",
+   "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS207957",
+   "title": "SERV.HOST GROUP LTD \u2014 RIPE network footprint (AS207957, 263 announced prefixes)",
+   "witnessed_at": "2026-11-12T23:19:16Z"
+  },
+  {
+   "bytes": 2461,
+   "doc_id": "cities-deliver-loi-escalation-2026-11-12.md",
+   "record_hash": "5ff337448711afc81f63e5b7c7fc06e22de7882a2d266e8d32ebf64ef3b99cf3",
+   "seq": 205,
+   "sha256": "4ae28ec80d9def3effed864631595355bb136617bdc81d9b5cc5705038599b0a",
+   "source_url": "https://citiesdeliver.rockefellerfoundation.org/",
+   "title": "Cities Deliver \u2014 LOI escalation draft (Cathedral City, Indio, Desert Hot Springs)",
+   "witnessed_at": "2026-11-12T23:39:58Z"
+  },
+  {
+   "bytes": 2872,
+   "doc_id": "companies-house-servhost-objection-supplement-2026-11-12.md",
+   "record_hash": "f396d51035ebaaae8439b1167d3ee0a47731df6a83a24e2b9cac9b40c8f03163",
+   "seq": 206,
+   "sha256": "753f14a58d2e186e9fefdef6efe4bbec32af746579e745eaac4f70ed53548f5a",
+   "source_url": "https://stat.ripe.net/data/as-overview/data.json?resource=AS207957",
+   "title": "Companies House \u2014 SERV.HOST GROUP LTD objection evidence supplement (AS207957 / RIPE)",
+   "witnessed_at": "2026-11-12T23:39:58Z"
+  },
+  {
+   "bytes": 39461,
+   "doc_id": "DRAFT-Fiscal-Sponsorship-Agreement-2026-11-15.docx",
+   "record_hash": "0aedb4f9f858a547b49d25f17dbff31ac53ab3961c006a84b5061d34af44620f",
+   "seq": 207,
+   "sha256": "6e970374fbea576f3bc0cf93cde78cb7bd8bc077ac7a7d4e5f8a5067de201247",
+   "source_url": "/opt/data/evident/corpus/DRAFT-Fiscal-Sponsorship-Agreement-2026-11-15.docx",
+   "title": "DRAFT - FISCAL SPONSORSHIP AGREEMENT - HCB (EIN 81-2908499) review copy",
+   "witnessed_at": "2026-11-15T02:09:40Z"
+  },
+  {
+   "bytes": 39754,
+   "doc_id": "Cities-Deliver-Project-Proposal-2026-11-15.docx",
+   "record_hash": "23d30d52db5b3cbd4d2b34e85ae6722918ecd2aa1b310992a02d9a617d2a9977",
+   "seq": 208,
+   "sha256": "9ac72aff78341c039aae2d94ddf0c5e965f3763243dde2b37e60b7b1293c6ca4",
+   "source_url": "/opt/data/evident/corpus/Cities-Deliver-Project-Proposal-2026-11-15.docx",
+   "title": "Cities Deliver - EVIDENT Project Proposal + Budget (Round 1)",
+   "witnessed_at": "2026-11-15T02:09:40Z"
+  }
+ ],
+ "escalations": [
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-11-10",
+   "id": 1,
+   "instrument_type": "agency_objection",
+   "opposing_response": "Acknowledged 2026-11-10 00:21; substantive reply 2026-11-09.",
+   "reference_number": "COH2370479X",
+   "request_id": "REQ-CH-TECHOFF-01",
+   "status": "filed; forwarded to the relevant department (10 working days)",
+   "target": "Companies House \u2014 Dissolution Section"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-11-10",
+   "id": 2,
+   "instrument_type": "agency_objection",
+   "opposing_response": "Acknowledged 2026-11-10 09:15; substantive reply 2026-11-10 10:09.",
+   "reference_number": "COH2433793X",
+   "request_id": "REQ-CH-SERVHOST-01",
+   "status": "filed; forwarded to the relevant department (10 working days)",
+   "target": "Companies House \u2014 Dissolution Section"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-11-08",
+   "id": 3,
+   "instrument_type": "ombudsman_complaint",
+   "opposing_response": "Darlena Potter: \"I have received your records complaint\u2026 follow up with you this week.\" (2026-11-09)",
+   "reference_number": "W.S. \u00a7 16-4-202(c)(v) complaint",
+   "request_id": "REQ-UINTA-01",
+   "status": "accepted; under review",
+   "target": "Wyoming Public Records Ombudsman"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "",
+   "id": 4,
+   "instrument_type": "petition",
+   "opposing_response": "",
+   "reference_number": "W.S. \u00a7 16-4-202(c)(v) good-cause petition",
+   "request_id": "REQ-UINTA-01",
+   "status": "prepared \u2014 not filed (awaiting the Ombudsman)",
+   "target": "Wyoming District Court, Laramie County"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "",
+   "id": 5,
+   "instrument_type": "tip_submission",
+   "opposing_response": "",
+   "reference_number": "up to $10,000,000 (Media Land / ML.Cloud)",
+   "request_id": null,
+   "status": "package prepared; submission reserved to the principal (OPSEC)",
+   "target": "U.S. Department of State \u2014 Rewards for Justice"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-11-10",
+   "id": 6,
+   "instrument_type": "court_filing",
+   "opposing_response": "",
+   "reference_number": "command injection \u2014 pull_request_target",
+   "request_id": null,
+   "status": "disclosed; awaiting response",
+   "target": "chemosim-lab/ProLIF maintainers"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-11-10",
+   "id": 7,
+   "instrument_type": "court_filing",
+   "opposing_response": "",
+   "reference_number": "command injection \u2014 workflow_run, contents: write",
+   "request_id": null,
+   "status": "disclosed; awaiting response",
+   "target": "TUMFTM/PointCloudCrafter maintainers"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-11-10",
+   "id": 8,
+   "instrument_type": "court_filing",
+   "opposing_response": "",
+   "reference_number": "command injection \u2014 pull_request, contents: write",
+   "request_id": null,
+   "status": "disclosed; awaiting response",
+   "target": "INESCTEC/yake maintainers"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-11-08",
+   "id": 9,
+   "instrument_type": "other",
+   "opposing_response": "",
+   "reference_number": "intake 2026-11-08",
+   "request_id": "REQ-UINTA-01",
+   "status": "intake filed",
+   "target": "ACLU of Wyoming"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-11-08",
+   "id": 10,
+   "instrument_type": "other",
+   "opposing_response": "",
+   "reference_number": "attorney outreach 2026-11-08",
+   "request_id": "REQ-UINTA-01",
+   "status": "outreach sent",
+   "target": "Wyoming private counsel"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-11-08",
+   "id": 11,
+   "instrument_type": "other",
+   "opposing_response": "",
+   "reference_number": "media outreach 2026-11-08",
+   "request_id": null,
+   "status": "outreach sent",
+   "target": "Media"
+  },
+  {
+   "cost": 0.0,
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_filed": "2026-10-19",
+   "id": 12,
+   "instrument_type": "other",
+   "opposing_response": "Meagan Moscato reply 2026-11-10 14:50.",
+   "reference_number": "fiscal sponsorship application 2026-10-19",
+   "request_id": "REQ-HCB-01",
+   "status": "in review; further call requested 2026-11-10",
+   "target": "The Hack Foundation (HCB)"
+  }
+ ],
+ "meta": [
+  {
+   "key": "built_at",
+   "value": "2026-11-15T02:39:36Z"
+  },
+  {
+   "key": "ledger_records",
+   "value": "172"
+  }
+ ],
+ "outcomes": [
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "description": "Statutory period expired with no production; escalated to the Ombudsman on 2026-11-08.",
+   "id": 1,
+   "linked_breach_id": 1,
+   "outcome_date": "2026-11-03",
+   "outcome_type": "no_response",
+   "request_id": "REQ-UINTA-01"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "description": "Ombudsman accepted the good-cause complaint; review under way.",
+   "id": 2,
+   "linked_breach_id": 1,
+   "outcome_date": "2026-11-09",
+   "outcome_type": "other",
+   "request_id": "REQ-UINTA-01"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "description": "Request moved to the NextRequest portal; no tracking number or fee-waiver confirmation yet.",
+   "id": 3,
+   "linked_breach_id": 3,
+   "outcome_date": "2026-11-10",
+   "outcome_type": "partial_production",
+   "request_id": "REQ-WYDOC-01"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "description": "Objection on file; Companies House forwarded the enquiry to the relevant department (response within 10 working days).",
+   "id": 4,
+   "linked_breach_id": null,
+   "outcome_date": "2026-11-10",
+   "outcome_type": "other",
+   "request_id": "REQ-CH-TECHOFF-01"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "description": "Objection on file; Companies House forwarded the enquiry to the relevant department (response within 10 working days).",
+   "id": 5,
+   "linked_breach_id": null,
+   "outcome_date": "2026-11-10",
+   "outcome_type": "other",
+   "request_id": "REQ-CH-SERVHOST-01"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "description": "HCB requested a further phone call before proceeding; slots proposed for 11-13 Nov.",
+   "id": 6,
+   "linked_breach_id": null,
+   "outcome_date": "2026-11-10",
+   "outcome_type": "other",
+   "request_id": "REQ-HCB-01"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "description": "City replied; scope of production to be confirmed.",
+   "id": 7,
+   "linked_breach_id": 4,
+   "outcome_date": "2026-11-03",
+   "outcome_type": "partial_production",
+   "request_id": "REQ-BULLHEAD-01"
+  },
+  {
+   "created_at": "2026-11-15T02:39:36Z",
+   "description": "PrimeGov witness poller captured two further city documents (Finance Advisory Committee, 16 Nov 2026).",
+   "id": 8,
+   "linked_breach_id": null,
+   "outcome_date": "2026-11-10",
+   "outcome_type": "full_production",
+   "request_id": "REQ-CATHEDRAL-01"
+  }
+ ],
+ "requests": [
+  {
+   "actual_response_date": "2026-11-03",
+   "agency": "City of Bullhead City, Arizona",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-10-21",
+   "days_overdue": 0,
+   "delivery_method": "email (agentmail)",
+   "id": 1,
+   "jurisdiction": "Arizona, USA",
+   "notes": "Reply received 2026-11-03 from Kamie Lee Baker (kbaker@bullheadcityaz.gov).",
+   "records_sought": "Fatal pursuit/collision records of 9 Oct 2026; internal affairs findings; body-cam footage.",
+   "request_doc_hash": "sha256:ledger-seq-160",
+   "request_id": "REQ-BULLHEAD-01",
+   "response_deadline": "2026-11-20",
+   "statute": "A.R.S. \u00a7 39-121 et seq."
+  },
+  {
+   "actual_response_date": "",
+   "agency": "City of Indio, California",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-11-10",
+   "days_overdue": null,
+   "delivery_method": "email (agentmail)",
+   "id": 2,
+   "jurisdiction": "California, USA",
+   "notes": "LOI chase sent 2026-11-10.",
+   "records_sought": "Letter of intent for the Cities Deliver records-integrity pilot.",
+   "request_doc_hash": "sha256:ledger-seq-161-adjacent",
+   "request_id": "REQ-INDIO-01",
+   "response_deadline": "",
+   "statute": "Cal. Gov. Code \u00a7 6250 et seq."
+  },
+  {
+   "actual_response_date": "",
+   "agency": "City of Desert Hot Springs, California",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-10-17",
+   "days_overdue": null,
+   "delivery_method": "email (agentmail)",
+   "id": 3,
+   "jurisdiction": "California, USA",
+   "notes": "Original LOI request; fallback city.",
+   "records_sought": "Letter of intent for the Cities Deliver records-integrity pilot.",
+   "request_doc_hash": "sha256:ledger-seq-161-adjacent",
+   "request_id": "REQ-DHS-01",
+   "response_deadline": "",
+   "statute": "Cal. Gov. Code \u00a7 6250 et seq."
+  },
+  {
+   "actual_response_date": "",
+   "agency": "City of Cathedral City, California",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-10-21",
+   "days_overdue": null,
+   "delivery_method": "email (agentmail) + PrimeGov poller",
+   "id": 4,
+   "jurisdiction": "California, USA",
+   "notes": "Lead city. PrimeGov witness poller live (12h); 2 new documents 2026-11-10.",
+   "records_sought": "Letter of intent; council agendas and packets (witnessed via PrimeGov).",
+   "request_doc_hash": "sha256:ledger-seq-169-170",
+   "request_id": "REQ-CATHEDRAL-01",
+   "response_deadline": "",
+   "statute": "Cal. Gov. Code \u00a7 6250 et seq."
+  },
+  {
+   "actual_response_date": "",
+   "agency": "Mohave County, Arizona",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-10-20",
+   "days_overdue": null,
+   "delivery_method": "email (agentmail)",
+   "id": 5,
+   "jurisdiction": "Arizona, USA",
+   "notes": null,
+   "records_sought": "Regional audit records (lead-resolution).",
+   "request_doc_hash": "sha256:ledger-seq-16-17",
+   "request_id": "REQ-MOHAVE-01",
+   "response_deadline": "",
+   "statute": "A.R.S. \u00a7 39-121 et seq."
+  },
+  {
+   "actual_response_date": "",
+   "agency": "Clark County, Nevada",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-10-20",
+   "days_overdue": null,
+   "delivery_method": "email (agentmail)",
+   "id": 6,
+   "jurisdiction": "Nevada, USA",
+   "notes": null,
+   "records_sought": "Regional audit records.",
+   "request_doc_hash": "sha256:ledger-seq-5-42",
+   "request_id": "REQ-CLARK-01",
+   "response_deadline": "",
+   "statute": "N.R.S. \u00a7 239.005 et seq."
+  },
+  {
+   "actual_response_date": "2026-10-30",
+   "agency": "Riverside County, California",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-10-24",
+   "days_overdue": 0,
+   "delivery_method": "online referral portal",
+   "id": 7,
+   "jurisdiction": "California, USA",
+   "notes": "Amended referral filed 2026-10-30.",
+   "records_sought": "Referral (report no. 2000643509 / 2000646071).",
+   "request_doc_hash": "sha256:ledger-seq-82",
+   "request_id": "REQ-RIVERSIDE-01",
+   "response_deadline": "",
+   "statute": "Cal. Gov. Code \u00a7 6250 et seq."
+  },
+  {
+   "actual_response_date": "",
+   "agency": "Uinta County, Wyoming",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-10-12",
+   "days_overdue": 7,
+   "delivery_method": "email + certified demand",
+   "id": 8,
+   "jurisdiction": "Wyoming, USA",
+   "notes": "Demand served 2026-11-08 (seq 118-123); county follow-up seq 149.",
+   "records_sought": "Business licence and derived records for the business operated by Ryan Robert Maggard under the trade name 'Irrational Motorsports'.",
+   "request_doc_hash": "sha256:ledger-seq-144-146",
+   "request_id": "REQ-UINTA-01",
+   "response_deadline": "2026-11-03",
+   "statute": "Wyo. Stat. \u00a7 16-4-201 et seq."
+  },
+  {
+   "actual_response_date": "2026-11-10",
+   "agency": "Wyoming Department of Corrections",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-11-08",
+   "days_overdue": 0,
+   "delivery_method": "email (agentmail)",
+   "id": 9,
+   "jurisdiction": "Wyoming, USA",
+   "notes": "WDOC moved the request to the NextRequest portal (wydoc.nextrequest.com).",
+   "records_sought": "Incarceration, medical, incident, grievance and recording records of Ryan Robert Maggard (DOB 2004-05-27).",
+   "request_doc_hash": "sha256:ledger-seq-118-123",
+   "request_id": "REQ-WYDOC-01",
+   "response_deadline": "",
+   "statute": "Wyo. Stat. \u00a7 16-4-201 et seq."
+  },
+  {
+   "actual_response_date": "2026-11-10",
+   "agency": "Companies House (Dissolution Section)",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-11-10",
+   "days_overdue": 0,
+   "delivery_method": "email + online service",
+   "id": 10,
+   "jurisdiction": "England & Wales, UK",
+   "notes": "Ref COH2370479X.",
+   "records_sought": "Objection to the strike-off of TECHOFF SRV LIMITED (16090235).",
+   "request_doc_hash": "sha256:ledger-seq-159",
+   "request_id": "REQ-CH-TECHOFF-01",
+   "response_deadline": "2026-11-10",
+   "statute": "Companies Act 2006 s.1002A"
+  },
+  {
+   "actual_response_date": "2026-11-10",
+   "agency": "Companies House (Dissolution Section)",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-11-10",
+   "days_overdue": 0,
+   "delivery_method": "email + online service",
+   "id": 11,
+   "jurisdiction": "England & Wales, UK",
+   "notes": "Ref COH2433793X.",
+   "records_sought": "Objection to the strike-off of SERV.HOST GROUP LTD (15728390).",
+   "request_doc_hash": "sha256:ledger-seq-168",
+   "request_id": "REQ-CH-SERVHOST-01",
+   "response_deadline": "2026-11-10",
+   "statute": "Companies Act 2006 s.1002A"
+  },
+  {
+   "actual_response_date": "2026-11-10",
+   "agency": "The Hack Foundation (HCB)",
+   "created_at": "2026-11-15T02:39:36Z",
+   "date_submitted": "2026-10-19",
+   "days_overdue": 0,
+   "delivery_method": "online application + email",
+   "id": 12,
+   "jurisdiction": "Vermont, USA",
+   "notes": "Application in review 2026-10-27; HCB requested a further call 2026-11-10.",
+   "records_sought": "Fiscal sponsorship agreement / 501(c)(3) determination letter for EVIDENT.",
+   "request_doc_hash": "sha256:ledger-seq-145-adjacent",
+   "request_id": "REQ-HCB-01",
+   "response_deadline": "2026-11-29",
+   "statute": "fiscal sponsorship (501(c)(3))"
+  }
+ ]
+}
